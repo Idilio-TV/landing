@@ -10,15 +10,13 @@ interface ModalProps {
 
 export default function Modal({ isOpen, onClose, children }: ModalProps) {
     useEffect(() => {
-        let closingEv: any = null;
-        let insideEv: any = null;
         if (isOpen) {
             document.body.style.overflow = "hidden";
-            closingEv = document.addEventListener("mousedown", (e) => {
+            document.addEventListener("mousedown", () => {
                 onClose();
             });
 
-            insideEv = document.getElementById("modal")?.addEventListener("mousedown", (e) => {
+            document.getElementById("modal")?.addEventListener("mousedown", (e: MouseEvent) => {
                 e.stopPropagation();
             });
 
@@ -27,11 +25,9 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
         }
         return () => {
             document.body.style.overflow = ""
-            if (closingEv) document.removeEventListener("mousedown", closingEv);
-            if (insideEv) document.removeEventListener("mousedown", insideEv);
         };
 
-    }, [isOpen]);
+    }, [isOpen, onClose]);
 
     if (!isOpen) return null;
 

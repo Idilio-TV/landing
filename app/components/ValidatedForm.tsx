@@ -29,8 +29,7 @@ export default function ValidatedForm({ closeForm, interest }: { closeForm: () =
         return isValid;
     };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+    const handleSubmit = async () => {
         if (validate()) {
             try {
                 await fetch("/api/subscribe", {
@@ -55,7 +54,6 @@ export default function ValidatedForm({ closeForm, interest }: { closeForm: () =
 
     return (
         <form
-            action="https://gmail.us22.list-manage.com/subscribe/post?u=d1c54e136b242f2abf10e1856&amp;id=dca71f818e&amp;f_id=00bcc2e1f0"
             method="post"
             target="_blank" onSubmit={handleSubmit} className="space-y-4 mb-6">
             <div>

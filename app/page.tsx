@@ -1,7 +1,5 @@
 import Hero from "./components/Hero"
-import Header from "./components/Header"
 import ContentSection from "./components/ContentSection"
-import Backers from "./components/Backers"
 import Team from "./components/Team"
 import Shows from "./components/Shows"
 import Contact from "./components/Contact"

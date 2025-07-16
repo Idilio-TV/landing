@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const team = [
     { name: "Gabriela Tafur", role: "Directora General", image: "/team/gabriela.jpeg", link: "" },
     { name: "Esteban Ramírez", role: "Director de Tecnología", image: "/team/esteban.jpeg", link: "" },

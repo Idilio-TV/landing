@@ -33,8 +33,7 @@ export default function Contact() {
         return isValid;
     };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+    const handleSubmit = async () => {
         if (validate()) {
             try {
                 setButtonDisabled(true);
