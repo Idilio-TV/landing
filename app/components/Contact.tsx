@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { FormEvent, useState } from "react";
 import toast from "react-hot-toast";
 
 export default function Contact() {
@@ -33,7 +33,8 @@ export default function Contact() {
         return isValid;
     };
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
         if (validate()) {
             try {
                 setButtonDisabled(true);

@@ -10,9 +10,9 @@ export default function ContentSection() {
             <div className="text-center w-full bg-black text-white grid sm:grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-10 justify-items-center">
                 <ContentBox title="Episodios Cortos" text="Disfruta de tu contenido favorito en pequeñas porciones" icon={<Timer size={50} color="#5ac254" />} />
                 <ContentBox title="Descarga Offline" text="Descarga tus capítulos favoritos para verlos en cualquier momento" icon={<Download size={50} color="#5ac254" />} />
-                <ContentBox title="Contenido Exclusivo" text="Series y películas originales que no encontrarás en ningún otro lugar" icon={<Star size={50} color="#5ac254" />} />
+                <ContentBox title="Contenido Exclusivo" text="Series y micronovelas originales que no encontrarás en ningún otro lugar" icon={<Star size={50} color="#5ac254" />} />
                 <ContentBox title="Capítulos Gratis" text="Para que disfrutes sin compromiso de nuestras series" icon={<CircleDollarSign size={50} color="#5ac254" />} />
-                <ContentBox title="Hecho en Español" text="La primera plataforma de microdramas escritos y producidos en español" icon={<BookA size={50} color="#5ac254" />} />
+                <ContentBox title="Hecho en Español" text="La primera plataforma de micronovelas escritos y producidos en español" icon={<BookA size={50} color="#5ac254" />} />
                 <ContentBox title="Calidad Inigualable" text="Guiones, actuaciones y producciones de la más alta calidad" icon={<Drama size={50} color="#5ac254" />} />
             </div>
         </section>

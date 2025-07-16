@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 import toast from "react-hot-toast";
 
 export default function ValidatedForm({ closeForm, interest }: { closeForm: () => void; interest?: string }) {
@@ -29,7 +29,9 @@ export default function ValidatedForm({ closeForm, interest }: { closeForm: () =
         return isValid;
     };
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
         if (validate()) {
             try {
                 await fetch("/api/subscribe", {
