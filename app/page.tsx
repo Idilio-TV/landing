@@ -6,11 +6,14 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import CookiesBanner from "./components/CookiesBanner"
 import { Toaster } from "react-hot-toast"
+import { Analytics } from "@vercel/analytics/next"
+
 
 export default function Home() {
   return (
     <main className="bg-black text-white">
       <Toaster />
+      <Analytics />
       <Hero />
       <ContentSection />
       <Team />
