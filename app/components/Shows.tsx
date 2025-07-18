@@ -4,7 +4,7 @@ import Modal from "./Modal";
 import ValidatedForm from "./ValidatedForm";
 import { useTranslations } from 'next-intl';
 
-const showThemes = {
+const showThemes: { [k: string]: string[] } = {
     "tpe": ["kidnapping", "revenge", "family"],
     "hdp": ["betrayal", "family", "fLove"],
     "etm": ["romance", "Crimen", "family"],
