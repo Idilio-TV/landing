@@ -4,6 +4,8 @@ import React, { FormEvent, useState } from "react";
 import Modal from "./Modal";
 import toast from "react-hot-toast";
 import { useTranslations } from 'next-intl';
+import { usePathname, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 
 export default function Footer() {
     const t = useTranslations('Footer');
@@ -46,6 +48,8 @@ export default function Footer() {
                     <p>© 2025 Idilio. {t("phrase")}</p>
                 </div>
                 <div className="flex space-x-4">
+                    <LanguageSwitcher />
+
                     <a onClick={() => setIsModalOpen(true)} className="hover:underline cursor-pointer text-md">
                         {t('joinUs')}
                     </a>
@@ -78,5 +82,37 @@ export default function Footer() {
                 </div>
             </Modal>
         </footer>
+    );
+}
+
+function LanguageSwitcher() {
+    const router = useRouter();
+    const pathname = usePathname();
+    const params = useParams();
+    const currentLocale = params.locale as string;
+
+    const switchLocale = (newLocale: string) => {
+        // Replace the current locale segment in the pathname
+        const segments = pathname.split('/');
+        segments[1] = newLocale;
+        const newPath = segments.join('/');
+        router.push(newPath);
+    };
+
+    return (
+        <div className="flex gap-2">
+            <button
+                onClick={() => switchLocale('en')}
+                className={currentLocale === 'en' ? 'font-bold underline cursor-pointer' : 'cursor-pointer'}
+            >
+                EN
+            </button>
+            <button
+                onClick={() => switchLocale('es')}
+                className={currentLocale === 'es' ? 'font-bold cursor-pointer underline' : 'cursor-pointer'}
+            >
+                ES
+            </button>
+        </div>
     );
 }
