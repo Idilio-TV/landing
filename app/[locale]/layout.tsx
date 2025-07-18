@@ -4,7 +4,6 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import "../globals.css";
-import { Params } from "next/dist/server/request/params";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
