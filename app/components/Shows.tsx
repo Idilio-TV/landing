@@ -7,7 +7,7 @@ import { useTranslations } from 'next-intl';
 const showThemes: { [k: string]: string[] } = {
     "tpe": ["kidnapping", "revenge", "family"],
     "hdp": ["betrayal", "family", "fLove"],
-    "etm": ["romance", "Crimen", "family"],
+    "etm": ["romance", "crime", "family"],
     "aet": ["romance", "sports"],
     "lei": ["revenge", "mistery", "murder"],
     "ethy": ["fLove", "aMarriage"],
