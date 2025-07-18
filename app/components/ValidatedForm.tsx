@@ -1,7 +1,9 @@
 import { FormEvent, useState } from "react";
 import toast from "react-hot-toast";
+import { useTranslations } from 'next-intl';
 
 export default function ValidatedForm({ closeForm, interest }: { closeForm: () => void; interest?: string }) {
+    const t = useTranslations('ModalForm');
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [errors, setErrors] = useState({ name: "", email: "" });
@@ -11,17 +13,17 @@ export default function ValidatedForm({ closeForm, interest }: { closeForm: () =
         let isValid = true;
 
         if (name.trim() === "") {
-            newErrors.name = "El nombre es obligatorio.";
+            newErrors.name = t("nameRequired");
             isValid = false;
         }
 
         // ✅ Correct email regex (basic but effective)
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (email.trim() === "") {
-            newErrors.email = "El correo es obligatorio.";
+            newErrors.email = t("emailRequired");
             isValid = false;
         } else if (!emailRegex.test(email)) {
-            newErrors.email = "El formato del correo no es válido.";
+            newErrors.email = t("emailInvalid");
             isValid = false;
         }
 
@@ -45,10 +47,10 @@ export default function ValidatedForm({ closeForm, interest }: { closeForm: () =
                         interest: interest || "General",
                     }),
                 });
-                toast.success("¡Te escribimos pronto!");
+                toast.success(t("successMessage"));
                 closeForm();
             } catch {
-                toast.error("Hubo un error al suscribirte.");
+                toast.error(t("errorMessage"));
             }
 
         }
@@ -60,7 +62,7 @@ export default function ValidatedForm({ closeForm, interest }: { closeForm: () =
             target="_blank" onSubmit={handleSubmit} className="space-y-4 mb-6">
             <div>
                 <label htmlFor="mce-FNAME" className="block text-sm font-medium">
-                    Nombre
+                    {t('name')}
                 </label>
                 <input
                     type="text"
@@ -77,7 +79,7 @@ export default function ValidatedForm({ closeForm, interest }: { closeForm: () =
 
             <div>
                 <label htmlFor="mce-EMAIL" className="block text-sm font-medium">
-                    Correo electrónico <span className="text-red-600">*</span>
+                    {t('email')} <span className="text-red-600">*</span>
                 </label>
                 <input
                     type="email"
@@ -109,7 +111,7 @@ export default function ValidatedForm({ closeForm, interest }: { closeForm: () =
                 id="mc-embedded-subscribe"
                 className="bg-main-green-100 hover:bg-main-green-200 text-white px-6 py-2 rounded font-semibold w-full"
             >
-                Suscribirse
+                {t('submit')}
             </button>
         </form>
     );

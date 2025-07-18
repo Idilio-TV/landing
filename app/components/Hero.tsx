@@ -3,9 +3,11 @@
 import Modal from "./Modal";
 import { useState } from "react";
 import ValidatedForm from "./ValidatedForm";
+import { useTranslations } from 'next-intl';
 
 export default function Hero() {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const t = useTranslations('Hero');
 
     return (
         <>
@@ -31,16 +33,16 @@ export default function Hero() {
                         </div>
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold mt-8">
-                        El futuro del entretenimiento está aquí
+                        {t('title')}
                     </h1>
 
                     <h2 className="text-2xl md:text-2xl mt-8">
-                        Descubre historias emocionantes, contenido exclusivo y una experiencia única, solo en{" "}
+                        {t('subtitle')}{" "}
                         <span className="text-main-green-100">idilio.tv</span>
                     </h2>
 
                     <button onClick={() => setIsModalOpen(true)} className="mt-6 cursor-pointer bg-main-green-100 hover:bg-main-green-200 text-white px-6 py-3 rounded-md text-lg font-medium transition">
-                        Sé el primero en enterarte
+                        {t('button')}
                     </button>
                 </div>
 
@@ -61,8 +63,8 @@ export default function Hero() {
 
             <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
                 <div className="text-center">
-                    <h2 className="text-3xl font-bold mb-4">¡Gracias por tu interés!</h2>
-                    <p className="text-lg mb-6">Déjanos tus datos y te enviaremos noticias y actualizaciones sobre idilio.tv.</p>
+                    <h2 className="text-3xl font-bold mb-4">{t('modalTitle')}</h2>
+                    <p className="text-lg mb-6">{t('modalText')}</p>
                     <ValidatedForm closeForm={() => setIsModalOpen(false)} />
                 </div>
             </Modal>
