@@ -7,24 +7,20 @@ import Footer from "../components/Footer"
 import CookiesBanner from "../components/CookiesBanner"
 import { Toaster } from "react-hot-toast"
 import { Analytics } from "@vercel/analytics/next"
-import Head from "next/head"
-import { useTranslations } from 'next-intl';
+import { Metadata } from "next"
+import { getTranslations } from "next-intl/server"
 
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations('Home');
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
 
 export default function Home() {
-  const t = useTranslations('Home');
   return (
     <main className="bg-black text-white">
-      <Head>
-        <title>
-          {t('title')}
-        </title>
-        <meta
-          name="description"
-          content={t('description')}
-          key="desc"
-        />
-      </Head>
       <Toaster />
       <Analytics />
       <Hero />
