@@ -6,6 +6,7 @@ import toast from "react-hot-toast";
 import { useTranslations } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 import { useParams } from 'next/navigation';
+import Link from 'next/link';
 
 export default function Footer() {
     const t = useTranslations('Footer');
@@ -53,12 +54,12 @@ export default function Footer() {
                     <a onClick={() => setIsModalOpen(true)} className="hover:underline cursor-pointer text-md">
                         {t('joinUs')}
                     </a>
-                    {/* <a href="/terms" className="hover:underline">
-                        Términos
-                    </a>
-                    <a href="/privacy" className="hover:underline">
-                        Privacidad
-                    </a> */}
+                    <Link href="/terms" className="hover:underline">
+                        {t('terms')}
+                    </Link>
+                    <Link href="/privacy" className="hover:underline">
+                        {t('privacy')}
+                    </Link>
                 </div>
             </div>
             <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>

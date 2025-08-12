@@ -84,6 +84,8 @@
     "Footer": {
         "phrase": "Made with passion in Latin America",
         "joinUs": "Join the Team",
+        "terms": "Terms",
+        "privacy": "Privacy",
         "modalTitle": "Join the movement!",
         "crime": "Crime",
         "modalText": "Leave us your information and we'll write to you.",
@@ -105,5 +107,723 @@
         "emailRequired": "Email is required.",
         "emailInvalid": "Email is not valid.",
         "contactTitle": "Contact Us"
-    }
+    },
+    "Terms": {
+        "title": "Terms and Conditions | idilio.tv",
+        "description": "Read the terms and conditions for using idilio.tv streaming platform. Learn about our policies, user responsibilities, and service agreements.",
+        "pageTitle": "Terms and Conditions",
+        "section1": {
+            "title": "ACCEPTANCE OF TERMS",
+            "content": "By accessing and using the idilio.tv platform, you agree to be bound by these Terms and Conditions of Use. If you do not agree to any part of these terms, you should not use our services."
+        },
+        "section2": {
+            "title": "SERVICE DESCRIPTION",
+            "content": "idilio.tv is a streaming platform that offers audiovisual content, including series, microdramas, and other entertainment programs. Our services are available through mobile devices, tablets, and computers."
+        },
+        "section3": {
+            "title": "USER ACCOUNT",
+            "content": "To access certain services, it may be necessary to create an account. You are responsible for:",
+            "list": {
+                "item1": "Maintaining the confidentiality of your access information",
+                "item2": "All activities that occur under your account",
+                "item3": "Immediately notifying any unauthorized use",
+                "item4": "Providing accurate and up-to-date information"
+            }
+        },
+        "section4": {
+            "title": "CONTENT AND COPYRIGHT",
+            "content": "All content available on idilio.tv is protected by copyright and other intellectual property laws. You agree to:",
+            "list": {
+                "item1": "Not reproduce, distribute, or transmit content without authorization",
+                "item2": "Not modify, adapt, or create derivative works",
+                "item3": "Respect third-party intellectual property rights",
+                "item4": "Use content only for personal and non-commercial use"
+            }
+        },
+        "section5": {
+            "title": "ACCEPTABLE USE",
+            "content": "You agree to use our services responsibly and legally. It is prohibited to:",
+            "list": {
+                "item1": "Use services for illegal or fraudulent activities",
+                "item2": "Attempt unauthorized access to our systems",
+                "item3": "Interfere with platform operation",
+                "item4": "Transmit viruses, malware, or harmful code",
+                "item5": "Violate rights of other users or third parties"
+            }
+        },
+        "section6": {
+            "title": "SUBSCRIPTIONS AND PAYMENTS",
+            "content": "Some services may require paid subscription. Subscription terms include:",
+            "list": {
+                "item1": "Automatic billing according to selected plan",
+                "item2": "Cancellation at any time",
+                "item3": "Refunds according to applicable policy",
+                "item4": "Price changes with prior notification"
+            }
+        },
+        "section7": {
+            "title": "PRIVACY",
+            "content": "Your privacy is important to us. The use of your personal information is governed by our Privacy Policy, which is an integral part of these terms."
+        },
+        "section8": {
+            "title": "SERVICE AVAILABILITY",
+            "content": "We strive to keep our services available 24 hours a day, but we do not guarantee uninterrupted availability. We may perform scheduled or unscheduled maintenance that may temporarily affect access."
+        },
+        "section9": {
+            "title": "LIMITATION OF LIABILITY",
+            "content": "To the maximum extent permitted by law, idilio.tv will not be responsible for indirect, incidental, special, or consequential damages resulting from the use of our services."
+        },
+        "section10": {
+            "title": "MODIFICATIONS",
+            "content": "We reserve the right to modify these terms at any time. Changes will take effect immediately after publication. Your continued use constitutes acceptance of the modified terms."
+        },
+        "section11": {
+            "title": "APPLICABLE LAW",
+            "content": "These terms are governed by the laws of Colombia. Any dispute will be resolved in the competent courts of Bogotá, Colombia."
+        },
+        "section12": {
+            "title": "CONTACT",
+            "content": "If you have questions about these terms, you can contact us through:",
+            "list": {
+                "item1": "Email: legal@idilio.tv",
+                "item2": "Contact form on our website"
+            }
+        },
+        "footer": {
+            "lastUpdate": "Last updated:",
+            "date": "January 2025",
+            "disclaimer": "These terms and conditions are subject to change. We recommend reviewing this page periodically to stay informed about any modifications."
+        },
+        "backToHome": "Back to Home"
+    },
+    "Privacy": {
+        "title": "Privacy Notice | idilio.tv",
+        "description": "Read our privacy notice to understand how idilio.tv collects, uses, and protects your personal information. Learn about your rights and our data practices.",
+        "pageTitle": "Privacy Notice",
+        "intro": "This Privacy Notice explains how we collect, use, and disclose your personal information when you use the IDILIO.TV service (that term and \"IDILIO.TV content\" are defined in the IDILIO.TV Terms of Use available at Idilio.tv/terms) or anywhere we display or reference this Privacy Notice. It also explains what your privacy rights are and how to exercise them. Certain features or applications that are part of the IDILIO.TV service may provide you with additional contextual privacy information or options, in addition to the information and options described in this Privacy Notice.",
+        "contactInfo": "If you have questions about this Privacy Notice, about our use of your personal information, or about how to exercise your privacy rights, at privacy@Idilio.tv. For general questions about the IDILIO.TV service, your account, or how to contact customer service, please visit our help center (help.Idilio.tv).",
+        "sectionA": {
+            "title": "Section A: Our collection, use, and disclosure of personal information",
+            "categoriesTitle": "Categories of personal information we collect",
+            "categoriesIntro": "We collect the following categories of personal information about you:",
+            "personalData": {
+                "title": "Personal data",
+                "content": "when you create your IDILIO.TV account, we collect your contact information (such as your email address) and authentication information for your login (such as a password). Depending on how you subsequently configure your account and payment method, and what features you use, we also collect one or more of the following: first and last name, phone number, postal address, gender, date of birth, and other identifiers you provide to us."
+            },
+            "paymentDetails": {
+                "title": "Payment details",
+                "content": "we collect your payment data and other information to process your payments, including your payment history, billing address, as well as gift cards and promotional offers you have redeemed."
+            },
+            "purchaseInfo": {
+                "title": "Purchase information",
+                "content": "we collect information about your purchases, such as the information you provide to us when you make a purchase with IDILIO.TV, your purchase history and other products purchased or considered (for example, those in your shopping cart), and your general shopping habits."
+            },
+            "accountProfile": {
+                "title": "IDILIO.TV account/profile information",
+                "content": "we collect information associated with your IDILIO.TV account and/or IDILIO.TV profiles on your account (such as profile name and icon, IDILIO.TV game aliases, ratings and comments you provide about IDILIO.TV content), your \"My List\" (list of titles to watch), \"continue watching\" information, account/profile settings, and options related to your use of the IDILIO.TV service."
+            },
+            "usageInfo": {
+                "title": "Usage information",
+                "content": "we collect information about your interaction with the IDILIO.TV service (including playback events, such as play, pause, etc.), choices made when interacting with interactive titles, your activity in IDILIO.TV games (such as gameplay, use and interaction within games, and progress information or saved games), your viewing and gaming history on IDILIO.TV, search queries on the IDILIO.TV service, and other information about your use and interaction with the IDILIO.TV service (such as app clicks, text entered, pages viewed, access time and duration, and camera/photo access for QR code functionality and similar)."
+            },
+            "advertisingInfo": {
+                "title": "Advertising information",
+                "content": "we collect information about ads on the IDILIO.TV service (\"Ads,\" as defined in the IDILIO.TV Terms of Use) that you see or interact with, device information (such as resettable device identifiers), IP addresses, and information provided by Advertising Companies (such as information about your likely interests that such companies have collected or inferred from your visits to other websites and applications). We use this information to support Ads (including behavioral ads according to your preferences)."
+            },
+            "deviceNetworkInfo": {
+                "title": "Device and network information",
+                "content": "we collect information about your computer or other IDILIO.TV-compatible devices you may use to access our service (such as Smart TVs, mobile devices, set-top boxes, gaming systems, or other streaming devices), your network and your network devices. This information includes: (i) device identifiers (ID) or other unique identifiers, including those of your network devices (such as your router) and IDILIO.TV-compatible devices connected to your network; (ii) IP addresses (which may be used to tell us the general location of your device, such as your city, state/province, and zip code); (iii) device and software characteristics (such as type and configuration), referral source (for example, referral URL), standard browser and application log information, and connection information including connection type (such as wifi or cellular); (iv) performance data such as crash reports, timestamps, and debug log messages; and (vi) cookie data, resettable device identifiers, advertising identifiers, and other unique identifiers (described below in the \"Cookies and other Technologies\" section)."
+            },
+            "communications": {
+                "title": "Communications",
+                "content": "if you communicate with IDILIO.TV (for example, by contacting customer service via online chat or phone call) or participate in our surveys or feedback requests (for example, when canceling the service), we collect the content of such communications. We also collect details of communications we send to you (for example, via email, push notifications, text messages, or within the IDILIO.TV service), and information about your interaction with those communications."
+            },
+            "sensitiveData": {
+                "title": "Sensitive personal data",
+                "content": "IDILIO.TV does not collect personal data that is considered sensitive."
+            }
+        },
+        "sourcesTitle": "Where we collect personal information from",
+        "sourcesIntro": "We collect your personal information from the following sources:",
+        "directlyFromYou": {
+            "title": "Directly from you",
+            "content": "when you register for the IDILIO.TV service, update your IDILIO.TV account or profile, purchase products or services from us, correspond with us, or respond to our surveys, you may provide (and we will collect) the following categories of personal information: personal data, payment details, purchase information, account/profile information, and communications."
+        },
+        "automatically": {
+            "title": "Automatically when you use our service",
+            "content": "we automatically collect the following categories of personal information in connection with your use of the IDILIO.TV service: IDILIO.TV account/profile information, purchase information, usage information, advertising information, device and network information, and communications."
+        },
+        "fromPartners": {
+            "title": "From Partners whose products and services you use",
+            "content": "we may collect the following categories of personal information about you from third parties whose services you use to access, pay for, or interact with the IDILIO.TV service (\"Partners\"): personal data, payment details, usage information, and device and network information. Our Partners may include your TV manufacturer, your Internet service provider, streaming device provider, mobile phone carrier, or other companies that charge payment for the IDILIO.TV service. For example, Partners may provide us with: (i) personal data (such as your email address), (ii) device and network information (such as IP addresses, device ID or other unique identifiers) or other personal information to activate the IDILIO.TV service, or present IDILIO.TV content to you through parts of the Partner's user interface; (iii) payment details (such as information associated with prepaid promotions and billing data) if the Partner is helping with billing or collecting payment for the IDILIO.TV service; and (iv) search queries and IDILIO.TV-related commands you make through Partner devices or voice assistant platforms."
+        },
+        "fromOtherSources": {
+            "title": "From other sources",
+            "content": "we may collect the following categories of personal information about you from other sources: personal data, payment details, and device and network information. These sources include:",
+            "serviceProviders": "Service Providers such as vendors, agents, and contractors who collect or provide personal information to IDILIO.TV in connection with services they perform on our behalf (\"Service Providers\"). This may include Service Providers such as those who: (i) help us determine a general geographic location based on your IP address to personalize our service and for other uses consistent with this Privacy Notice; (ii) provide us with information to secure our systems, prevent fraud, and help us protect the security of IDILIO.TV and our users; (iii) provide us with payment processing services, including payment or balance information, or updates to that information; and (iv) provide IDILIO.TV games, or parts or functions of those games, as part of the IDILIO.TV service (for example, some IDILIO.TV games are licensed by IDILIO.TV but operated by Service Providers).",
+            "marketingProviders": "IDILIO.TV Marketing Providers when you interact with marketing campaigns that promote the IDILIO.TV service or IDILIO.TV content. See the \"Cookies and other Technologies\" section below for more details.",
+            "thirdPartySites": "Third-party sites and forums where we provide support for the IDILIO.TV service (such as an online support forum for IDILIO.TV customer service or for a particular IDILIO.TV game).",
+            "publicSources": "Publicly available sources, such as public posts on social media platforms and other information available through public databases, in accordance with applicable laws.",
+            "advertisingCompanies": "Advertising Companies: we may collect advertising information about you from other sources to support Ads, including the following (collectively referred to as \"Advertising Companies\"): (i) Advertisers who publish Ads on IDILIO.TV (\"Advertisers\") may provide us with unique identifiers (for example, cookies or resettable device identifiers), (ii) demographic and other information for the purpose of delivering Ads to you;",
+            "adServiceProviders": "Ad service providers that facilitate the sale, operations, and management of Ads (\"Ad Service Providers\");",
+            "measurementCompanies": "Ad measurement companies that help IDILIO.TV and Advertisers understand the effectiveness of Ads (\"Ad Measurement Companies\"); and",
+            "informationProviders": "Online and offline information providers to support Ads"
+        },
+        "howWeUseTitle": "How we use your personal information",
+        "howWeUseIntro": "We use your personal information to provide, maintain, improve, and promote the IDILIO.TV service, and to communicate with you. This involves using the personal information categories mentioned above for the following purposes:",
+        "provideService": {
+            "title": "Provide our service",
+            "content": "including making personalized recommendations of IDILIO.TV content that we think may be of interest to you. This may also include personalizing and optimizing service features and functionality (such as how recommendations are presented to you), and localizing IDILIO.TV content relevant to your region, in accordance with our content partners' license terms."
+        },
+        "manageBusiness": {
+            "title": "Manage and operate our business",
+            "content": "including purposes such as processing payments and any gift cards you redeem, sending you transactional communications (such as confirmation of your subscription start date or information about changes to your account), determining your Internet service provider to help with network troubleshooting, responding to your inquiries and requests, and assisting you with operational requests such as password resets."
+        },
+        "researchImprove": {
+            "title": "Research, analyze, and improve our services",
+            "content": "for example, by analyzing and understanding our audience to improve our services and optimize IDILIO.TV content selection and service delivery. This may also include processing your personal information in connection with any survey you participate in."
+        },
+        "enableIntegrations": {
+            "title": "Enable integrations and promotions with Partners",
+            "content": "so that our Partners can promote the IDILIO.TV service and make it available to you through Partner devices and integrations, according to the specific relationship you have with the Partner."
+        },
+        "sendMarketing": {
+            "title": "Send informational and marketing messages",
+            "content": "including news and promotional communications about our service, new features, available IDILIO.TV content, and special offers, as well as IDILIO.TV marketing on third-party services. Any of these messages, including IDILIO.TV marketing on third-party services, may be personalized for you or according to your likely interests. Please see the \"Communication and marketing preferences\" section below to change your communication preferences."
+        },
+        "supportAdvertising": {
+            "title": "Support Ads",
+            "content": "including providing, analyzing, managing, improving, optimizing, selecting, delivering, and measuring Ads. We use the following categories of personal information for this purpose: personal data, account/profile information, usage information, advertising information, and device and network information. We use your personal information to present Ads to you."
+        },
+        "securityFraud": {
+            "title": "Security, protection, and fraud prevention",
+            "content": "including securing our systems, protecting our business, and investigating, preventing, and detecting prohibited or illegal activities and other security/technical issues."
+        },
+        "compliance": {
+            "title": "Comply with the law and enforce the IDILIO.TV Terms of Use",
+            "content": "including satisfying applicable legislation, regulation, legal processes, or government requests, and protecting against harm to the rights, property, or safety of IDILIO.TV, its users, or the public, as required or permitted by law, as well as to enforce applicable community guidelines. This also includes determining which IDILIO.TV registration offers you are eligible for and whether a particular device is authorized to use the account in accordance with the IDILIO.TV Terms of Use."
+        },
+        "disclosureTitle": "Who do we disclose your personal information to?",
+        "disclosureIntro": "We may disclose your personal information to the following parties:",
+        "serviceProviders": {
+            "title": "Service Providers",
+            "content": "we use Service Providers to perform services on our behalf or to help us provide services to you. For example, we employ Service Providers to provide communications, security, infrastructure and IT, game-related services, to personalize and improve our service, and to process payments. We do not authorize them to use or disclose your personal information except in connection with providing their services (which may include maintaining and improving their own services). To help maintain the security of our service and users, we and our Service Providers may monitor and record the content of communications (such as chat functionality) to identify harmful behaviors, security risks, and violations of the IDILIO.TV Terms of Use and community guidelines. Our Service Providers may process your personal information for the following purposes: provide our service; manage and operate our business; research, analyze, and improve our services; send informational and marketing messages; for security, protection, and fraud prevention; and to comply with the law and enforce the IDILIO.TV Terms of Use."
+        },
+        "partners": {
+            "title": "Partners",
+            "content": "if you have a relationship with one or more of our Partners, we may share certain personal information with them to fulfill their requests, in compliance with applicable law. For example, depending on which Partner services you use, we may share personal information so that IDILIO.TV content and features can be suggested to you through the Partner's user interface. Partners may process your personal information for the following purposes: manage and operate our business; research, analyze, and improve our services; enable integrations and promotions with Partners; and send informational and marketing messages."
+        },
+        "marketingProviders": {
+            "title": "IDILIO.TV marketing providers",
+            "content": "when we perform IDILIO.TV marketing on third-party services, some of those services, as well as the marketing service providers we use to acquire, deliver, optimize, or measure our marketing (collectively, \"IDILIO.TV Marketing Providers\") may receive information from us (for example, the steps completed in the IDILIO.TV subscription process). Common uses of this type of information include measuring effectiveness and optimizing our marketing campaigns, and avoiding marketing to a device of a person who is already an IDILIO.TV member. IDILIO.TV uses contractual and technical measures designed to prevent IDILIO.TV Marketing Providers from accessing information about specific series or movie titles you have selected, URLs you have accessed, or the series or movies you have watched on our service. We do not share information about the series or movie title selections you have watched on our service."
+        },
+        "advertisingCompanies": {
+            "title": "Advertising Companies",
+            "content": "we may disclose certain personal information to Advertising Companies (see definition above) for the purpose of selecting Ads displayed on IDILIO.TV, facilitating interaction with Ads, and measuring and improving Ad effectiveness."
+        },
+        "promotionalCollaborations": {
+            "title": "Promotional collaborations",
+            "content": "we may collaborate with third parties to offer joint promotions."
+        },
+        "corporateTransactions": {
+            "title": "Corporate transactions",
+            "content": "in connection with a reorganization, restructuring, merger, or sale, or other transfer of assets, we will transfer personal information, provided that the receiving party accepts to respect your personal information in a manner consistent with this Privacy Notice."
+        },
+        "securityDisclosure": {
+            "title": "Security, protection, and fraud prevention",
+            "content": "IDILIO.TV and its Service Providers may disclose your personal information to third parties when we reasonably consider that such disclosure is necessary for security, protection, and fraud prevention purposes."
+        },
+        "legalCompliance": {
+            "title": "Legal compliance and enforcement of IDILIO.TV Terms",
+            "content": "we may disclose your personal information as necessary to comply with applicable law, regulation, legal process, or government request, and to carry out the processing necessary to protect against harm to the rights, property, or safety of IDILIO.TV, its users, or the public, as required or permitted by law."
+        },
+        "internationalTransfer": "IDILIO.TV operates from several countries around the world (including, for example, the United States, Colombia, and Mexico), as do its Service Providers, Partners, and other third parties to whom we may need to disclose your personal information, as described above. This means that when you use or interact with IDILIO.TV, your personal information may be transferred to other countries that have different data protection laws than the country where you reside. However, whenever we transfer personal information to other countries, we will ensure that personal information is transferred in accordance with applicable data protection laws and this Privacy Notice.",
+        "sectionB": {
+            "title": "Section B: Your rights and controls",
+            "rightsTitle": "Your privacy rights",
+            "right1": {
+                "title": "1. Access, rectification, update, or deletion of your personal information",
+                "content": "you have the right to confirm whether or not we process your personal information and to access and receive a copy of the personal information we process about you. You may also correct or update outdated or inaccurate personal information, or request that we delete the personal information we retain about you"
+            },
+            "right1Details": "To request a copy of your personal information, please visit Idilio.tv/account/get-my-information. Additionally, in the \"Account\" section of our website, you can access and update information about your account, including your contact information, payment information, and various data related to your account. You must be logged in to access the \"Account\" section. For information about deletion, deletion (cancellation), and retention of personal information, see Idilio.tv/help/delete-data. Portability and download of your personal information: you may request the portability of, or download a copy of, your personal information. If you are the account holder, to download a copy of your personal information go to: Idilio.tv/account/get-my-information. For more information, please see: Idilio.tv/help/download-data.",
+            "right2": {
+                "title": "2. Objection, restriction, and withdrawal of consent",
+                "content": "you may object to or request that we restrict the processing of your personal information. If we have collected and processed your personal information with your consent, then you may withdraw your consent at any time. Withdrawing your consent will not affect the legality of any processing carried out before your withdrawal, nor will it affect the processing of your personal information carried out on grounds other than consent. For more information, see Idilio.tv/help/data-rights."
+            },
+            "right3": {
+                "title": "3. Right to file a complaint",
+                "content": "you have the right to file a complaint with a data protection authority about our collection and use of your personal information, but we encourage you to first contact us for any questions or concerns."
+            },
+            "right4": {
+                "title": "4. Right not to be subject to automated decisions",
+                "content": "you may have the right not to be subject to a decision made solely by automated means, when such decision produces a legal effect on you or similarly significantly affects you. You may exercise the rights described above when we receive a verified request from you, in accordance with applicable laws"
+            },
+            "communicationPreferencesTitle": "Communication and marketing preferences",
+            "emailsTexts": {
+                "title": "Emails and text messages",
+                "content": "if you no longer wish to receive certain communications from us by email or text message, please access the \"Notification Settings\" option for the corresponding profile within the \"Account\" section of our website. Alternatively, click the \"unsubscribe\" link in the email or reply \"STOP\" (or as indicated) to the text message. Please note that you cannot unsubscribe from transactional messages we send to you, such as messages related to your account transactions."
+            },
+            "pushNotifications": {
+                "title": "Push notifications",
+                "content": "you may opt to receive mobile push notifications from IDILIO.TV. IDILIO.TV will send you push notifications occasionally according to the notification preferences you have set on your mobile device. If you subsequently decide that you no longer wish to receive these notifications, you can use your mobile device settings to disable them. Please note that some individual IDILIO.TV games may have their own push notifications. We also offer push notifications on certain web browsers. If you accept to receive those notifications and then decide that you no longer wish to receive them, you can use your browser settings to disable them."
+            },
+            "matchingIdentifiers": {
+                "title": "IDILIO.TV communications with matching identifiers",
+                "content": "some third-party services allow us to reach users with online marketing about IDILIO.TV content or about the IDILIO.TV service by sending protected contact information to that third party. Protected contact information means that we use technologies to convert the original contact information into a value (typically a long alphanumeric sequence) that by itself cannot reveal your identity or contact information. The third party compares IDILIO.TV's protected contact information with the protected contact information in their own database, and there will only be a match if you have used the same contact information with both IDILIO.TV and the third party. If there is a match, IDILIO.TV can then choose whether to send you IDILIO.TV marketing on that third-party service, and can better optimize and measure the effectiveness of such marketing. You can indicate your preferences regarding Communications with matching identifiers in the \"Privacy and data settings\" option (for the corresponding profile) within the \"Account\" section of our website."
+            },
+            "marketingCookies": {
+                "title": "IDILIO.TV service marketing using cookies and similar technologies",
+                "content": "to exercise options regarding cookies or resettable device identifiers collected for IDILIO.TV service marketing or IDILIO.TV content marketing purposes on third-party services, use the tools described in the \"Cookies and other Technologies\" section below."
+            },
+            "advertisingOptionsTitle": "Advertising options",
+            "behavioralAdvertising": {
+                "title": "Behavioral advertising options",
+                "content": "we respect your preferences regarding behavioral advertising, and you can disable behavioral ads at any time by changing the \"Behavioral Advertising\" setting located in the \"Privacy and data settings\" menu (for the corresponding profile) of the \"Account\" section of our website. If the behavioral ads option is disabled, you will still see Ads, but they will be non-behavioral ads. No opt-out option is provided on a Kids profile, as we do not perform behavioral advertising on Kids profiles."
+            },
+            "digitalAdvertisingAlliance": {
+                "title": "Digital Advertising Alliance opt-out control",
+                "content": "IDILIO.TV supports the following self-regulatory programs, which provide additional privacy options for behavioral advertising:",
+                "canada": "In Canada: AdChoices: Digital Advertising Alliance of Canada (DAAC) / Choix de Pub: l'Alliance de la publicité numérique du Canada (DAAC)",
+                "usa": "In the U.S.: Digital Advertising Alliance (DAA)"
+            },
+            "moreInfo": "For more information about your options regarding your personal information, see Idilio.tv/help/data-rights.",
+            "contactQuestions": "Contact and questions: if you wish to exercise any of your rights, or have any questions about our privacy practices, please contact our Data Protection Officer/Privacy Office at privacy@Idilio.tv."
+        },
+        "sectionC": {
+            "title": "Section C: Account access and profiles",
+            "sharingAccountTitle": "Sharing your account with others",
+            "sharingAccountContent": "If you share your IDILIO.TV account with other people in your household, make sure they are aware of this Privacy Notice and have read it. This Privacy Notice applies to the use that such people make of IDILIO.TV (except in sections that only apply to the account holder, such as those related to payments). Please note that the account holder controls the IDILIO.TV account and all associated profiles, the account information and all profiles, and can decide to share (or stop sharing) the account with individuals in your household. If you share or allow others to have access to your account, they may be able to see viewing information, account information available in the \"Account\" section of the service, and information related to games such as chat content and saved game data. This remains true even if you use the profiles feature, although you can add a profile lock PIN on a profile (see Idilio.tv/help/profile-lock). Please note that viewing history, recommendations, \"continue watching\" list, and other similar information may be available through various features and user experiences, such as Partner interfaces that are integrated with the IDILIO.TV service.",
+            "profilesTitle": "Profiles",
+            "profilesContent": "Profiles allow users on an IDILIO.TV account to have a personalized IDILIO.TV experience, based on IDILIO.TV content of interest to them, as well as separate viewing histories. Please note that profiles are available to all who use your IDILIO.TV account, so that any person with access to your IDILIO.TV account can navigate to and use, edit, or delete profiles, and the information within, or associated with, those profiles (although, as mentioned above, you can add a lock PIN on a profile).",
+            "profileTransferTitle": "Profile transfer",
+            "profileTransferContent": "The profile transfer feature on your account allows you, and people with access to your account, to transfer an eligible profile from your account to a separate account (including information such as viewing history and recommendations). You can change the settings for this feature in the \"Account\" section of our website. You can get more information about this here: Idilio.tv/help/transfer-profile.",
+            "loginFeaturesTitle": "Account login features",
+            "loginFeaturesContent": "You may have the option to use certain account login features, such as login via email or text message, or a simplified login in the IDILIO.TV app on certain devices. Please note that any device that logs into your account will remain connected unless you log out of those devices (follow the instructions in the section below).",
+            "removeDeviceAccessTitle": "Remove device access to your account",
+            "removeDeviceAccessContent": "To remove access to your IDILIO.TV account from devices that have logged into the account, visit the \"Account\" section of our website, locate the \"Sign out of all devices\" option, and follow the instructions to sign out of your devices. Users of public or shared devices should sign out at the end of each session. If you sell or return a computer or IDILIO.TV-compatible device, make sure to sign out first. If you, or other users on your account, do not maintain the security of your email address, password, and logged-in devices, or do not sign out of a device you sell or return, then other people may access your IDILIO.TV account, including your personal information."
+        },
+        "sectionD": {
+            "title": "Section D: Cookies and other Technologies",
+            "intro": "We, our Service Providers, IDILIO.TV Marketing Providers, and Advertising Companies use cookies, other similar technologies (such as pixel tags), encrypted identifiers, and resettable device identifiers for various reasons. In this section we explain the types of technologies used, what they do, and the corresponding options you have. (We currently do not respond to \"Do Not Track\" signals sent by web browsers.)",
+            "cookiesTitle": "Cookies and similar technologies, pixel tags, encrypted identifiers, and resettable device identifiers",
+            "cookiesContent": "A cookie's text contains a string of numbers and letters that can uniquely identify your device, and may also contain other information. This allows the web server to recognize your browser each time you connect to that server. We use other technologies, such as browser storage and plugins. Like cookies, these other technologies can store small amounts of data on your device. Pixel tags often work together with cookies. In many cases, rejecting cookies will affect the effectiveness of pixel tags associated with those cookies. We can also create, use, and disclose encrypted identifiers. As described above, hashing is a process of converting original contact information (such as an email address or phone number) into a value (typically a long alphanumeric sequence) that by itself cannot reveal your identity or contact information. If you use an IDILIO.TV app (such as the main IDILIO.TV app or an IDILIO.TV game app) on a mobile device, tablet, or streaming device, we may collect a resettable device identifier from your device. Resettable device identifiers can be used similarly to cookies and are found on many mobile devices and tablets, and on certain streaming devices.",
+            "whyUseTitle": "Why does IDILIO.TV use these technologies?",
+            "whyUseContent": "We use these types of technologies for various reasons, including: provide our service; manage and operate our business; research, analyze, and improve our services (for example, improve site performance, monitor visitor traffic and actions on our site, and test the effectiveness of our user interface); send informational and marketing messages (for example, deliver and adapt our marketing, and understand interactions with our emails, marketing, and marketing on third-party services); support Ads; security, protection, and fraud prevention; and comply with the law and enforce the IDILIO.TV Terms of Use. These technologies allow IDILIO.TV Marketing Providers to collect personal information when you use our services, and IDILIO.TV Marketing Providers may also collect information about your online activities over time and across different websites. We use pixel tags in our emails to understand how members interact with our service. Our use of pixel tags helps us know when links within messages are clicked, or when emails are opened. IDILIO.TV uses encrypted identifiers and resettable device identifiers to show marketing of our service or IDILIO.TV content on third-party services, to support Ads (including delivering Ads to you), and for analysis and optimization purposes.",
+            "howToExerciseTitle": "How can I exercise options regarding these technologies?",
+            "cookiesOptions": {
+                "title": "To exercise options regarding cookies",
+                "content": "for more information about cookies set through our service and to exercise options regarding cookies, click here (see our Cookie Preferences). Note: We currently do not respond to \"Do Not Track\" signals sent by web browsers."
+            },
+            "hashedIdentifiersOptions": {
+                "title": "To exercise options regarding encrypted identifiers for IDILIO.TV marketing",
+                "content": "to exercise options regarding IDILIO.TV's use of encrypted identifiers for IDILIO.TV marketing communications on third-party services, please configure the appropriate option in \"Communications with matching identifiers\" within \"Privacy and data settings\" (for the corresponding profile) in the \"Account\" section of our website."
+            },
+            "deviceIdentifiersOptions": {
+                "title": "To exercise options regarding resettable device identifiers",
+                "content": "to exercise options regarding IDILIO.TV's use of resettable device identifiers (for IDILIO.TV service marketing or IDILIO.TV content marketing, or as used to support Ads), configure the appropriate option on your device (generally located in \"privacy\" or \"ads\" in your device settings). If you decide not to allow this, you may still see marketing messages that promote IDILIO.TV and Ads on that device, but they will not be selected based on the use of a resettable device identifier. Please note that your choice regarding the resettable device identifier is specific to that device."
+            },
+            "otherTechnologiesOptions": {
+                "title": "To exercise options regarding other similar technologies",
+                "content": "in addition to any options we may offer you within the IDILIO.TV service, there are several ways to exercise options regarding technologies similar to cookies, such as browser storage and plugins (for example, HTML5, IndexedDB, and WebSQL). For example, many popular browsers offer the ability to clear browser storage, typically in the settings or preferences area. See your browser's help function or support area for more information. Other technologies can be removed from the app itself."
+            },
+            "additionalOptions": "In addition to these options, if you wish to exercise your options for behavioral advertising on IDILIO.TV, please see the \"Advertising options\" section above."
+        },
+        "sectionE": {
+            "title": "Section E: Other important privacy disclosures",
+            "sharingFeaturesTitle": "Sharing features on our service",
+            "sharingFeaturesContent": "You may use the sharing features available on our service to disclose your personal information in the following ways: Certain parts of our service may provide you with options to share information by email, text message, and social or other sharing applications, using the clients and applications on your device; and Social plugins and similar technologies that allow you to share information. Social plugins and social applications are operated by third-party social networks, and are subject to their terms of use and privacy policies. Similarly, some IDILIO.TV game features may require the use of a third-party service, which is subject to that service's terms of use and privacy policy.",
+            "securityTitle": "Security",
+            "securityContent": "We use reasonable administrative, logical, physical, and management measures to protect your personal information against loss, theft, as well as unauthorized access, use, and modification. These measures are designed to provide a level of security appropriate to the risks of processing your personal information.",
+            "retentionTitle": "Retention of personal information",
+            "retentionContent": "We may retain personal information as required or permitted by applicable laws and regulations, including to respect your choices, for our billing or record-keeping purposes, and as necessary to fulfill the purposes described in this Privacy Notice. In particular, we retain personal information for the time necessary to provide our service; to manage and operate our business; to research, analyze, and improve our services; to send informational and marketing messages; to support Ads; for security, protection, and fraud prevention; and to comply with the law and enforce the IDILIO.TV Terms of Use. Our retention of personal information is based on many factors, such as your relationship with IDILIO.TV, the nature of the personal information, our legal obligations, and the need to defend or resolve current or anticipated legal claims. We take reasonable measures to securely destroy or de-identify personal information when it is no longer necessary. For information about personal information retention periods, please see Idilio.tv/help/data-retention",
+            "otherSitesTitle": "Other websites, platforms, and applications",
+            "otherSitesContent": "The IDILIO.TV service may be used, or may be provided, through features operated by third-party platforms (for example, social media content viewing, or voice control provision), or contain links to sites operated by third parties. Additionally, you may find third-party applications that interact with the IDILIO.TV service. These third parties have their own privacy policies. For example, you may access the IDILIO.TV service through platforms such as Smart TVs, mobile devices, set-top boxes, gaming systems, and other Internet-connected devices. These platforms have their own privacy statements or notices and terms of use, which we recommend you review. We may also provide support for the IDILIO.TV service (such as an online support forum for IDILIO.TV customer service or for a particular IDILIO.TV game). Information you post or make available on such sites and forums is publicly accessible (unless otherwise indicated on the site or forum).",
+            "minorsTitle": "Minors",
+            "minorsContent": "You must be at least 18 years old (or the age of majority in your country of residence) to subscribe to the IDILIO.TV service. People under that age may only use the service with the participation, supervision, and approval of one of their parents or legal guardian. To help parents or guardians, we have several parental controls available; you can get more information here: Idilio.tv/help/parental-controls.",
+            "changesTitle": "Changes to this Privacy Notice",
+            "changesContent": "We will update this Privacy Notice periodically in response to changing legal, regulatory, or operational requirements. We will provide notice of such changes (including when they will take effect) as required by law. Your continued use of the IDILIO.TV service after such updates take effect will constitute your acknowledgment and (to the extent applicable) acceptance of those changes. If you do not wish to acknowledge or accept the updates to this Privacy Notice, you may cancel your account. To see when this Privacy Notice was last updated, see the Last updated date below."
+        },
+        "sectionF": {
+            "title": "Section F: Supplemental privacy disclosures for certain services",
+            "gamesTitle": "IDILIO.TV Games",
+            "gamesIntro": "When you play IDILIO.TV games, we will collect, use, and disclose your personal information as described in the IDILIO.TV Privacy Notice. These Supplemental Privacy Disclosures for IDILIO.TV Games provide examples and additional information applicable to IDILIO.TV games that feature functions such as leaderboards, achievements, local multiplayer, online multiplayer, friend-related functions, chat, IDILIO.TV game controller, and user-generated content.",
+            "gamesCategoriesTitle": "The categories of personal information we collect",
+            "gamesCategoriesIntro": "if you play IDILIO.TV games with the mentioned functions (or similar functions), we may collect, in addition to what is described above, the following personal information:",
+            "gamesAccountProfile": {
+                "title": "IDILIO.TV account/profile information",
+                "content": "information associated with your IDILIO.TV account/profile, such as your selection of your friends list or teams and the names of those teams, when you use functions such as local multiplayer (for example, when other players connect to your \"IDILIO.TV Game on TV\" by scanning a code on the TV) and online multiplayer (when you interact with other online players who have logged into their IDILIO.TV accounts)."
+            },
+            "gamesUsageInfo": {
+                "title": "Usage information",
+                "content": "information about you and your use of IDILIO.TV games, for example: Your position on leaderboards, score, and achievements in the game; Whether you are online and/or playing a game, to show your online status or availability to other players in the game and/or to your friends list or team; Your searches for other players and connections with them within an IDILIO.TV game (for example, searching for and connecting with another player); Your gameplay, interactions, or chat with other players as part of local multiplayer and online multiplayer functions; Your reports of violations of the IDILIO.TV Games Community Guidelines (Idilio.tv/help/game-guidelines) and reports from other players about your possible violations; and The user-generated content you enter in an IDILIO.TV game, such as drawings, content you upload (for example, photos, videos, audio recordings, or other content), or your selection of content from a third-party service."
+            },
+            "gamesDeviceNetwork": {
+                "title": "Device and network information",
+                "content": "when you use the IDILIO.TV game controller functionality to connect to a game (for example, an \"IDILIO.TV Game on TV\"), we collect information about the app, device, and IDILIO.TV account (if you are logged in) on which the IDILIO.TV game controller is running."
+            },
+            "gamesHowWeUseTitle": "How we use your personal information",
+            "gamesHowWeUseIntro": "when playing IDILIO.TV games that include the mentioned functions (or similar), we may use your personal information in the following additional ways:",
+            "gamesProvideService": {
+                "title": "To provide our service (game functions)",
+                "content": "we use the personal information necessary to provide the game and the functions described below, including: IDILIO.TV account/profile information, usage information, and device and network information. In particular: For functions such as leaderboards and achievements, we use your personal information (for example, your game alias) to display the leaderboard and achievements to both you and other players; For functions that allow you to find or interact with other players (such as online multiplayer games), we use your personal information and the personal information you provide about other players to find them and send them your connection request (and for them to find you and send you a connection request); For online multiplayer games, we may use the general geographic location of your device (such as your city, state, or country) to match you with other players geographically close to the relevant game server, so that gameplay is less prone to Internet delays; For communication functions, such as in-game chat, we transmit the communications you send to another player or group of players and deliver the communications they send to you. (Please note that we may use Service Providers to carry out services related to these communications on our behalf, which may include providing chat, moderation, and similar services); and For user-generated content functions, we use your personal information to display the content generated by you to other players in the IDILIO.TV game, or according to how you have shared such generated content (for example, on a third-party service)."
+            },
+            "gamesDisclosureTitle": "Who do we disclose personal information to (Games)?",
+            "gamesDisclosureIntro": "If you play IDILIO.TV games with the mentioned functions (or similar), we may disclose your personal information in the following additional ways:",
+            "gamesLegalCompliance": {
+                "title": "Legal compliance and enforcement of Terms",
+                "content": "when you play IDILIO.TV games with communication functions (such as chat), IDILIO.TV and its Service Providers may access, preserve, and disclose your information in response to legal requests from third parties, including government agencies and private litigants. We respond to legal requests when we have a good faith belief that we are required by law to respond, or when we believe in good faith that a response is required by law in that jurisdiction and the request is consistent with internationally recognized standards (for example, the International Covenant on Civil and Political Rights). We disclose personal information for the following purposes: comply with the law and enforce the IDILIO.TV Terms of Use."
+            },
+            "gamesOtherPlayers": {
+                "title": "Other players",
+                "content": "information such as your game alias, your gameplay, chat, and user-generated content (including personal information and other data you provide in these functions), as well as your online status, will be publicly visible to other players when you participate in an IDILIO.TV game that includes functions such as leaderboards, local multiplayer, online multiplayer, chat, IDILIO.TV game controller, and user-generated content. Please note that some games may allow you to play with players from other (non-IDILIO.TV) versions of the game, in which case, this information will be available to those players. Please use good judgment when using chat and user-generated content functions (please note that even if you delete chat text or generated content, players who have already seen that information may have saved it)."
+            },
+            "gamesTVAndWebTitle": "Games on TV and on IDILIO.TV.com",
+            "gamesTVAndWebContent": "some \"IDILIO.TV Games on TV and on idilio.tv\" (see Idilio.tv/help/games-on-TV) allow you and other players to connect to a game on a member's account using an IDILIO.TV app on your devices. For some of these games, you may not need to log into an IDILIO.TV account to play. In such case, some of the provisions of this Privacy Notice (and these Supplemental Disclosures) will not apply to you, such as those related to the collection and use of personal details (see definition above), and the sections related to payment details and billing. Information collected as part of \"IDILIO.TV Games on TV or on IDILIO.TV.com,\" such as usage information, device and network information, communications, and saved games or game activity information, may be linked to the IDILIO.TV account on which the game is running."
+        },
+        "backToHome": "Back to Home"
+    },
+    "Terms": {
+        "title": "Términos y Condiciones de Uso de Idilio.tv | idilio.tv",
+        "description": "Lee los términos y condiciones de uso para la plataforma de streaming idilio.tv. Conoce nuestras políticas, responsabilidades del usuario y acuerdos de servicio.",
+        "pageTitle": "Términos y Condiciones de Uso de Idilio.tv",
+        "lastUpdate": "Última Actualización: Julio de 2025",
+        "introduction": {
+            "title": "Introducción",
+            "content": "Bienvenido a Idilio.tv (la \"Plataforma\" o el \"Servicio\"), proporcionada por Idilio.tv o sus afiliadas (\"nosotros\"). Idilio.tv es un servicio de membresía personalizado que permite a los usuarios acceder a contenido de entretenimiento en formato vertical (el \"Contenido\") a través de internet en televisores, computadoras y otros dispositivos compatibles con Idilio.tv.",
+            "content2": "La Plataforma también puede permitir a los usuarios crear, cargar y compartir su propio contenido en ciertos casos. Estos Términos y Condiciones de Uso (los \"Términos\") rigen el acceso y uso que usted (\"usted\" o el \"usuario\") haga del Servicio, incluidos todos los sitios web, aplicaciones, productos, características, herramientas y software relacionados con Idilio.tv.",
+            "content3": "Al acceder o usar el Servicio, usted confirma que acepta estos Términos y se compromete a cumplirlos. Nuestros Servicios se prestan para su uso personal, privado y no comercial. Por favor, lea atentamente estos Términos. Si no está de acuerdo con ellos, no acceda ni utilice la Plataforma."
+        },
+        "eligibility": {
+            "title": "Elegibilidad",
+            "content": "Debe tener al menos 18 años de edad para crear una cuenta y ser miembro de Idilio.tv. Los menores de edad pueden utilizar el Servicio únicamente con la supervisión y consentimiento de un padre, madre o tutor legal, quien deberá aceptar estos Términos en nombre del menor. Si accede o utiliza el Servicio en nombre de una empresa u otra entidad, usted declara y garantiza que tiene la autorización y la autoridad para vincular a dicha entidad a estos Términos, y en tal caso los términos \"usted\" se referirán tanto a usted como individuo como a dicha entidad."
+        },
+        "acceptance": {
+            "title": "Aceptación y Modificación de los Términos",
+            "content": "Al crear una cuenta, acceder o usar Idilio.tv, usted acepta cumplir con estos Términos y con nuestra Política de Privacidad. Podemos modificar estos Términos ocasionalmente (por ejemplo, para reflejar cambios en nuestras funciones, integración con otros servicios o por requisitos legales).",
+            "content2": "Cada modificación sustancial del presente será notificada por medio de comunicación. Actualizaremos la fecha de \"Última Actualización\" al inicio de estos Términos para indicar la versión vigente. Si usted continúa utilizando el Servicio después de la fecha de entrada en vigor de unos nuevos Términos y Condiciones, ese uso continuo constituirá su aceptación de los mismos."
+        },
+        "membership": {
+            "title": "Membresía y Cuenta",
+            "content": "Para utilizar Idilio.tv, debe crear una cuenta proporcionándonos información precisa, actual y completa. Es importante que mantenga actualizada la información de su cuenta. Usted es responsable de mantener la confidencialidad de su contraseña y de restringir el acceso a sus dispositivos; cualquier actividad realizada desde su cuenta es de su responsabilidad. Si sospecha que un tercero no autorizado conoce sus credenciales o ha accedido a su cuenta, notifíquenos de inmediato.",
+            "content2": "Podemos suspender o deshabilitar su cuenta si viola estos Términos o si detectamos actividades que pudieran causar un perjuicio a la Plataforma, a otros usuarios, o que sean fraudulentas o ilegales.",
+            "content3": "Su membresía de Idilio.tv continuará de forma indefinida hasta que usted la cancele. Para acceder al contenido del Servicio, debe tener conexión a internet, un dispositivo compatible y proporcionar una Forma de Pago válida. Por \"Forma de Pago\" se entiende un método de pago actual, válido y aceptado que usted autoriza para cobrar las cuotas de la membresía. Salvo que cancele antes de la siguiente fecha de facturación, usted nos autoriza a cobrar la cuota de membresía del siguiente ciclo a su Forma de Pago registrada conforme proceda (consulte la sección de Facturación y Cancelación más adelante)."
+        },
+        "subscriptionPlans": {
+            "title": "Planes de Suscripción",
+            "content": "Ofrecemos diversos planes de suscripción. Algunos planes pueden incluir anuncios publicitarios (por ejemplo, planes con pausas comerciales) u otras características especiales. Todos los planes de membresía están destinados para uso personal y doméstico; no están permitidos para usos comerciales no autorizados. Algunos planes pueden ofrecer contenido limitado con publicidad de marca, promociones de Idilio.tv u otros productos nuestros. Es posible que ofrezcamos a ciertos usuarios la oportunidad de acceder a eventos en vivo, funciones nuevas o contenido especial, los cuales podrían incluir anuncios independientemente de su plan.",
+            "content2": "En algunos casos, su membresía podría ser ofrecida a través de un tercero junto con productos o servicios de ese tercero (por ejemplo, a través de su compañía de telefonía móvil, proveedor de televisión de paga o paquete promocional). No asumimos responsabilidad por los productos y servicios proporcionados por terceros. Si obtuvo su acceso a Idilio.tv por medio de un tercero, podrían aplicar términos adicionales o diferentes, especificados en el acuerdo de suscripción con dicho tercero. Puede verificar detalles de su plan iniciando sesión en nuestro sitio web y visitando la sección Cuenta."
+        },
+        "specialOffers": {
+            "title": "Ofertas Especiales",
+            "content": "Ocasionalmente, Idilio.tv puede promocionar ofertas especiales, planes de introducción, descuentos, pruebas gratuitas, sorteos u otros incentivos (\"Ofertas\"). La elegibilidad para cualquier Oferta será determinada por nosotros a nuestro exclusivo criterio y podemos usar información como el identificador de su dispositivo, método de pago o correo electrónico para determinar dicha elegibilidad. Nos reservamos el derecho de revocar una Oferta y suspender su cuenta si determinamos que no califica o que ha violado los términos de la promoción. Los usuarios que sean o hayan sido suscriptores recientemente en el mismo hogar podrían no ser elegibles para ciertas Ofertas introductorias. Las condiciones específicas de cada Oferta le serán comunicadas en el momento en que se le ofrezca. Si recibe una Oferta y no cumple con los requisitos o termina su periodo promocional, su membresía continuará automáticamente con la tarifa estándar del plan correspondiente a menos que la cancele."
+        },
+        "billing": {
+            "title": "Facturación y Cancelación",
+            "content": "Las tarifas de suscripción de Idilio.tv y cualesquiera otros cargos en los que incurra (por ejemplo, impuestos aplicables u otras tasas de transacción) se facturarán automáticamente a su Forma de Pago en la fecha de pago periódica correspondiente. La periodicidad de la facturación depende del plan de membresía que haya seleccionado (por ejemplo, mensual, anual, etc.). Puede ver su próxima fecha de pago visitando la página Cuenta en nuestro sitio web. Al suscribirse, usted nos autoriza a realizar una preautorización en su Forma de Pago, lo que puede implicar un cargo temporal o la validación de su método de pago, inclusive hasta por el costo de aproximadamente un mes de servicio. Si se suscribió a través de un tercero, consulte la información de facturación en la cuenta de ese tercero.",
+            "content2": "Para utilizar el Servicio debe proporcionar al menos una Forma de Pago válida. Usted nos autoriza a cargar las tarifas de suscripción a cualquiera de las Formas de Pago asociadas a su cuenta, en caso de que su Forma de Pago principal sea rechazada o no esté disponible. Cualquier monto no pagado seguirá siendo de su responsabilidad. Si un pago no se realiza exitosamente, debido a vencimiento, falta de fondos u otra razón, y usted no cancela su cuenta, podremos suspender su acceso al Servicio hasta obtener una Forma de Pago válida. Algunos proveedores de pago pueden cobrarle comisiones adicionales por transacciones extranjeras u otros cargos relacionados con el procesamiento de pagos según su método de pago y moneda; consulte con su proveedor para más información. Los impuestos locales pueden variar dependiendo del método de pago utilizado.",
+            "content3": "Usted puede actualizar su información de pago en cualquier momento ingresando a la sección Cuenta de nuestro sitio web. Si actualiza o agrega una nueva Forma de Pago, nos autoriza a cargar en dicha Forma de Pago los montos pendientes y futuros. También nos autoriza, cuando sea necesario, a obtener y usar actualizaciones de su información de pago proporcionadas por la institución financiera emisora o la red de pagos de su método."
+        },
+        "cancellation": {
+            "title": "Cancelación de Membresía",
+            "content": "Usted puede cancelar su membresía en cualquier momento. Si cancela, continuará teniendo acceso al contenido de Idilio.tv hasta el final de su período de facturación ya pagado. En la medida permitida por la legislación aplicable, los pagos de suscripción no son reembolsables y no otorgamos reembolsos o créditos por periodos parciales usados ni por contenido no visualizado. Para cancelar, visite la página Cuenta y siga las instrucciones de cancelación.",
+            "content2": "Si inició su suscripción a través de un tercero (por ejemplo, a través de la tienda de aplicaciones de su dispositivo o un proveedor externo), es posible que deba cancelar a través de ese tercero. Una vez que su cancelación esté procesada, su cuenta se cerrará automáticamente al final de su ciclo de facturación actual, momento a partir del cual ya no tendrá acceso al Servicio. Puede consultar en la página Cuenta la fecha exacta en que se cerrará su acceso tras cancelar.",
+            "content3": "Los precios de las suscripciones y la oferta de planes de Idilio.tv pueden cambiar ocasionalmente. Cualquier cambio en el precio de su plan o en la estructura de planes le será comunicado con al menos 60 días (sesenta días) de anticipación a su aplicación. Estos cambios serán efectivos a partir del siguiente ciclo de facturación posterior a la fecha de vigencia indicada. El uso continuado del Servicio después de la entrada en vigor de la modificación constituirá su aceptación del nuevo precio o plan."
+        },
+        "accountDeletion": {
+            "title": "Eliminación de Cuenta",
+            "content": "Si desea eliminar permanentemente su cuenta de Idilio.tv, puede contactarnos a través del Centro de Ayuda o el formulario de contacto indicado en la Plataforma para solicitar la eliminación. Tenga en cuenta que la eliminación de la cuenta es irreversible: perderá el acceso a su historial, perfiles, contenidos guardados y cualquier Contenido de Usuario que haya proporcionado. Una vez eliminada, no será posible reactivar la cuenta ni recuperar la información o contenido asociado."
+        },
+        "serviceUsage": {
+            "title": "Uso del Servicio",
+            "content": "El uso de Idilio.tv y de todo el contenido al que se accede a través del Servicio debe realizarse de conformidad con estos Términos y con todas las leyes y reglamentos aplicables. A continuación, se establecen las condiciones de uso y restricciones importantes:",
+            "content2": "El Servicio, incluido todo el Contenido proporcionado, se ofrece exclusivamente para su uso personal, privado y no comercial. Durante su suscripción, le otorgamos un derecho limitado, no exclusivo e intransferible para acceder al Servicio y visualizar el Contenido disponible. Excepto por este derecho limitado, no se le transfiere ningún derecho, título o interés sobre el Servicio ni su Contenido. Usted se compromete a no utilizar el Servicio ni el Contenido para exhibiciones públicas, ni a compartir su acceso con personas fuera de su hogar, a menos que su plan de membresía lo permita explícitamente. Está prohibida la reventa o uso comercial no autorizado del Servicio.",
+            "content3": "El contenido disponible en Idilio.tv puede variar según la ubicación geográfica desde donde acceda y puede cambiar periódicamente. Usted normalmente podrá acceder al Contenido principalmente en el país donde registró su cuenta, y únicamente en aquellos territorios donde ofrecemos el Servicio y tenemos licencia para dicho Contenido. No garantizamos que un título o contenido específico esté disponible en un momento dado. Algunos contenidos podrían no estar disponibles en ciertos planes. Además, la cantidad de dispositivos en los que puede ver contenido simultáneamente depende de su plan de membresía."
+        },
+        "serviceEvolution": {
+            "title": "Evolución del Servicio",
+            "content": "Idilio.tv evoluciona constantemente. La interfaz de usuario, las características, la selección de contenido y cualquier elemento del Servicio pueden ser actualizados, modificados o retirados periódicamente para mejorar la experiencia o cumplir requisitos legales o técnicos. Nos reservamos el derecho de hacer pruebas piloto de diversas funciones, ofertas, interfaces o contenido con distintos grupos de usuarios. Estas pruebas nos permiten evaluar la calidad y el interés de nuevas características. Usted puede optar por no participar en pruebas visitando la sección Cuenta y cambiando la configuración de \"Participación en pruebas\". No garantizamos que cualquier característica o contenido que esté en prueba llegue a incorporarse definitivamente al Servicio. Del mismo modo, es posible que eliminemos o incorporemos nuevas funciones en cualquier momento."
+        },
+        "offlineContent": {
+            "title": "Contenido Offline",
+            "content": "Dependiendo de su plan y de sus dispositivos, parte del Contenido de Idilio.tv puede estar disponible para descarga temporal y visualización sin conexión (\"Títulos offline\"). Esta función le permite, en dispositivos autorizados, descargar ciertos títulos para verlos posteriormente sin conexión a internet. La disponibilidad de Títulos offline está sujeta a restricciones: por ejemplo, puede haber un límite en la cantidad de títulos que puede descargar por cuenta, un número máximo de dispositivos asociados para almacenamiento offline, así como plazos dentro de los cuales debe comenzar a reproducir el contenido descargado y la duración durante la cual dicho contenido permanecerá accesible offline antes de vencer. Algunos Títulos offline podrían no reproducirse si se encuentra en un país donde ese contenido no está disponible vía streaming; es decir, si viaja a una región en la que el título no se puede transmitir, podría no ser posible verlo hasta que regrese a una región autorizada. El uso de contenido descargado sigue estando sujeto a estos Términos (por ejemplo, las restricciones de uso y no compartir se aplican igualmente a los contenidos descargados)."
+        },
+        "prohibitedActivities": {
+            "title": "Actividades Prohibidas",
+            "intro": "Usted se compromete a no realizar ninguna de las siguientes actividades al acceder o utilizar Idilio.tv o cualquier contenido en la Plataforma:",
+            "unauthorizedReproduction": {
+                "title": "Reproducción o distribución no autorizada",
+                "content": "No deberá archivar, reproducir, grabar, distribuir, modificar, exhibir, ejecutar, publicar, licenciar, vender, revender ni crear obras derivadas basadas en el Servicio o en cualquier Contenido obtenido a través del mismo, excepto que cuente con nuestra autorización expresa por escrito. Esto incluye abstenerse de grabar las transmisiones de vídeo, capturar pantallas de contenido protegido o compartir archivos descargados con terceros de manera no permitida."
+            },
+            "circumvention": {
+                "title": "Circunvención de medidas de protección",
+                "content": "No intente evitar, eliminar, alterar, desactivar, burlar o interferir de cualquier forma con las protecciones de contenido, mecanismos de cifrado, medidas de seguridad o controles de acceso del Servicio. Esto incluye no intentar eludir restricciones geográficas, no ocultar o falsificar información de ubicación ni eludir límites de dispositivos simultáneos mediante técnicas no autorizadas. Tampoco deberá eliminar avisos de derechos de autor, marcas de agua digitales u otras notificaciones de propiedad intelectual incluidas en el Contenido."
+            },
+            "reverseEngineering": {
+                "title": "Ingeniería inversa y extracción de datos",
+                "content": "No deberá descompilar, realizar ingeniería inversa, desensamblar ni reducir de otro modo el código fuente de cualquier software u otro componente del Servicio, ni intentar descubrir dicho código, algoritmos, métodos o técnicas utilizados en el Servicio. Asimismo, se prohíbe introducir cualquier tipo de software, script, bot, spider, scraper u otros medios automatizados para acceder al Servicio, rastrear, extraer (data mining), recopilar o almacenar contenido o información de la Plataforma de forma masiva."
+            },
+            "manipulation": {
+                "title": "Manipulación o interferencia",
+                "content": "No introduzca ningún código, virus, malware o cualquier material diseñado para interrumpir, dañar o limitar la funcionalidad del software, hardware o equipos de telecomunicaciones asociados al Servicio. No cargue, publique, envíe por email ni transmita ningún contenido que contenga virus, gusanos, troyanos, bombas de tiempo, archivos corruptos u otros componentes dañinos. Asimismo, no intente interferir con el funcionamiento adecuado de la Plataforma o los servidores y redes conectados a ésta (por ejemplo, mediante ataques de denegación de servicio, spam, sobrecarga, envío de paquetes malformados, etc.), ni eluda ninguna medida que podamos usar para impedir o restringir el acceso al Servicio (por ejemplo, no intentar evadir detecciones de seguridad o restricciones de uso)."
+            },
+            "unauthorizedCommercial": {
+                "title": "Usos comerciales no autorizados",
+                "content": "No use el Servicio ni el Contenido con fines comerciales o promocionales no autorizados por nosotros. No puede utilizar la Plataforma para publicitar o promover productos o servicios de terceros, realizar spam, cadenas de mensajes, esquemas piramidales, sorteos o cualquier tipo de comunicación comercial no solicitada. Tampoco debe usar el Servicio para recopilar información o datos de otros usuarios con el fin de enviar comunicaciones comerciales no autorizadas. Cualquier forma de uso del Servicio orientada a obtener lucro comercial, publicidad, o reventa del contenido o acceso, sin autorización previa por escrito, está prohibida."
+            },
+            "impersonation": {
+                "title": "Suplantación y actividades engañosas",
+                "content": "No suplantará a ninguna persona, empresa u otra entidad, ni falseará su identidad o afiliación con alguna persona o entidad en el uso del Servicio. No está permitido crear identidades falsas, ni intentar utilizar la cuenta, nombre de usuario o contraseña de otra persona sin su autorización. Asimismo, no deberá falsear el origen de ninguna comunicación, contenido o dato transmitido a través del Servicio."
+            },
+            "harassment": {
+                "title": "Acoso y comportamiento indebido",
+                "content": "Está terminantemente prohibido intimidar, acosar, amenazar o molestar a otros usuarios a través del Servicio. No publique ni envíe contenido que sea ofensivo, abusivo o que promueva la violencia o actos ilegales contra personas o bienes. No se tolerará contenido que incluya amenazas (incluyendo amenazas de daño físico) hacia otros. Del mismo modo, no use el Servicio para incitar hostigamiento o para incitar a otros a acosar o dañar."
+            },
+            "illegalContent": {
+                "title": "Contenido ilegal o nocivo",
+                "content": "No cargue, publique, distribuya ni transmita a través de la Plataforma ningún contenido que: (i) infrinja derechos de autor, patentes, marcas registradas, secretos comerciales u otros derechos de propiedad intelectual de terceros; (ii) viole derechos de privacidad, protección de datos o publicidad de terceros; (iii) sea difamatorio o calumnioso hacia cualquier persona; (iv) resulte obsceno, pornográfico (incluyendo contenido sexualmente explícito) o indecente; (v) promueva el odio, la violencia o la discriminación contra cualquier persona o grupo por motivos de raza, origen étnico, religión, género, orientación sexual, discapacidad, edad o cualquier otra característica protegida por la ley; (vi) contenga material que constituya o promueva actividades ilegales, peligrosas o delictivas, instrucciones para fabricar armas o explosivos, o que incite a la autolesión, al suicidio, a trastornos alimenticios o cualquier conducta dañina; (vii) esté diseñado deliberadamente para provocar, antagonizar o avergonzar a otras personas (por ejemplo, \"trollear\" o acosar deliberadamente con el fin de generar una reacción); o (viii) contenga información errónea, engañosa o fraudulenta que pueda causar perjuicio."
+            },
+            "unauthorizedInfo": {
+                "title": "Uso no autorizado de información",
+                "content": "No distribuirá información privada o personal de terceros sin su consentimiento, como direcciones, números de teléfono, direcciones de correo electrónico, documentos de identidad, datos financieros o cualquier información personal sensible. Asimismo, no solicitará contraseñas ni información de identificación personal de otros usuarios."
+            },
+            "conflictOfInterest": {
+                "title": "Conflictos de interés y uso indebido",
+                "content": "No utilizará el Servicio de manera que pueda generar un conflicto de interés o socavar la integridad de la Plataforma."
+            },
+            "repeatInfringement": {
+                "title": "Política de infracción repetida",
+                "content": "Es política de Idilio.tv, en circunstancias apropiadas y a nuestra discreción, suspender o eliminar las cuentas de usuarios que violen reiteradamente los derechos de propiedad intelectual de otros. Por ejemplo, si recibimos múltiples quejas válidas de copyright en contra de un mismo usuario, o si detectamos un patrón de abuso, podremos cancelar su cuenta. También podremos notificar a las autoridades competentes si el contenido infractor pudiera constituir un delito."
+            },
+            "abuseReporting": {
+                "title": "Reporte de abusos",
+                "content": "Si usted detecta contenido de otros usuarios que considera que infringe estos Términos (p. ej., contenido ilegal, inapropiado o violatorio de derechos), puede reportarlo a través de las herramientas de \"Reportar/Denunciar\" disponibles en la Plataforma o contactando a nuestro equipo de Soporte. Tomaremos las medidas que consideremos adecuadas conforme a nuestras políticas y la legislación aplicable, lo que puede incluir la eliminación del contenido y medidas contra la cuenta infractora. Sin embargo, el simple envío de un reporte no garantiza que se tome acción; evaluaremos cada caso."
+            },
+            "preservationCopies": {
+                "title": "Conservación y copias",
+                "content": "No garantizamos el almacenamiento permanente ni la disponibilidad continua de su Contenido de Usuario en la Plataforma. Es responsabilidad del usuario conservar copias de respaldo de cualquier contenido que aporte y que desee mantener. Idilio.tv no se hace responsable por la pérdida de cualquier Contenido de Usuario debido a eliminación por nuestra parte, fallas técnicas, cierre de su cuenta o cualquier otra razón. La Plataforma no está diseñada como servicio de respaldo para contenido; por tanto, le recomendamos mantener sus propios archivos de los videos u otros materiales que suba."
+            },
+            "automatedAnalysis": {
+                "title": "Análisis automatizado",
+                "content": "Usted entiende que, con el fin de proporcionar funciones personalizadas y mantener la integridad del Servicio, Idilio.tv puede emplear sistemas automatizados que analizan el contenido (incluyendo el Contenido de Usuario) a medida que es cargado, enviado, recibido y almacenado en la Plataforma. Este análisis automatizado puede emplearse para, por ejemplo, facilitar resultados de búsqueda personalizados, seleccionar o moderar publicidad relevante, detectar comportamientos sospechosos, spam o malware, así como para verificar que los contenidos cumplan con nuestras normas (detección automática de desnudez, violencia, infracciones de derechos de autor conocidos mediante hash digital, etc.). Al usar el Servicio, usted nos autoriza a llevar a cabo este tipo de procesamiento y análisis de su contenido, que ocurre de manera electrónica. Ningún sistema es perfecto, pero estos procedimientos nos ayudan a proteger a la comunidad y mejorar su experiencia."
+            },
+            "accuracyInfo": {
+                "title": "Exactitud de la información",
+                "content": "No garantizamos que cualquier información obtenida a través del Servicio (por ejemplo, sinopsis, listados, recomendaciones, comentarios de otros usuarios, o cualquier contenido de la Plataforma) sea precisa, completa o fiable. El contenido provisto es principalmente para propósitos de entretenimiento e informativos generales y no constituye asesoramiento profesional de ningún tipo. Si usted decidiera tomar decisiones en base a información obtenida del Servicio lo hace bajo su propia responsabilidad. Para asesoramiento profesional específico (médico, legal, financiero, etc.), deberá consultar a un profesional calificado."
+            },
+            "securityViruses": {
+                "title": "Seguridad y virus",
+                "content": "No garantizamos que la Plataforma esté libre de bugs, virus u otros componentes dañinos. Aunque implementamos medidas de seguridad y filtrado, cualquier contenido descargado u obtenido de otro modo mediante el uso del Servicio se accede bajo su propia discreción y riesgo. Usted será el único responsable de cualquier daño en su dispositivo o pérdida de datos que resulte de la descarga o uso de cualquier material obtenido a través del Servicio."
+            },
+            "advertisingThirdParty": {
+                "title": "Publicidad y contenido de terceros",
+                "content": "Idilio.tv podría desplegar anuncios o contenido de terceros como parte del Servicio, especialmente en planes con publicidad. No ofrecemos ninguna garantía en cuanto a dichos anuncios o contenidos de terceros. No respaldamos ni asumimos responsabilidad por la calidad, disponibilidad, exactitud o fiabilidad de productos, servicios, información u otros materiales que le sean mostrados u ofertados por terceros a través de anuncios en nuestra Plataforma. Cualquier relación que usted establezca con anunciantes u otros terceros encontrados en el Servicio, incluyendo la participación en promociones o transacciones comerciales, es exclusivamente entre usted y el tercero de que se trate. Idilio.tv no será responsable de ninguna pérdida o daño de ningún tipo en que usted incurra como resultado de tales interacciones o de la presencia de anunciantes de terceros en el Servicio. Idilio.tv podrá recibir una contraprestación por el despliegue de esos anuncios, sin que esto constituya un patrocinio de este."
+            },
+            "consumerRights": {
+                "title": "Derechos del consumidor",
+                "content": "Nada en estos Términos pretende excluir o limitar las garantías, condiciones o derechos irrenunciables que por ley le correspondan como consumidor. Algunas jurisdicciones no permiten la exclusión de ciertas garantías o la limitación de ciertos derechos, por lo que algunas de las exclusiones anteriores podrían no aplicarse en su caso. Estos Términos no afectan los derechos legales obligatorios que no pueden ser renunciados contractualmente."
+            }
+        },
+        "limitationLiability": {
+            "title": "Limitación de Responsabilidad",
+            "content": "En la medida en que la legislación aplicable lo permita, Idilio.tv (incluyendo nuestras empresas afiliadas, directivos, empleados y agentes) no será responsable frente a usted, usuario, por daños o pérdidas indirectas. Esto incluye, de manera enunciativa pero no limitativa:",
+            "content2": "No seremos responsables por cualquier pérdida de beneficios o ganancias (ya sea directa o indirecta), pérdida de ingresos, pérdida de fondo de comercio o reputación comercial, pérdida de oportunidades de negocio, ni por la pérdida o corrupción de datos, ni por daños indirectos, emergentes, especiales o punitivos resultantes del uso de (o la incapacidad de usar) el Servicio. Asimismo, cualquier otra pérdida o daño que no esté expresamente mencionado en estos Términos estará, en todo caso, limitado al monto que usted haya pagado a Idilio.tv por el Servicio en los 12 meses inmediatamente anteriores al evento que dio lugar a la responsabilidad (si correspondiera algún pago, dado su plan)."
+        },
+        "specificCircumstances": {
+            "title": "Circunstancias Específicas",
+            "intro": "Sin perjuicio de lo anterior, usted reconoce que no seremos responsables por pérdidas o daños que resulten de las siguientes circunstancias:",
+            "advertising": {
+                "title": "Publicidad",
+                "content": "Su confianza en la integridad, precisión o existencia de cualquier publicidad, o como resultado de cualquier relación o transacción entre usted y un anunciante o patrocinador cuyo anuncio aparezca en el Servicio."
+            },
+            "serviceChanges": {
+                "title": "Cambios en el Servicio",
+                "content": "Cualesquiera cambios que realicemos al Servicio, o por cualquier suspensión o interrupción temporal o permanente en la prestación del Servicio (o de cualquiera de sus funciones). Esto incluye situaciones en las que, por decisiones comerciales o razones fuera de nuestro control, debamos descontinuar alguna parte del Servicio, eliminar contenido específico, o cerrar completamente la Plataforma."
+            },
+            "contentStorage": {
+                "title": "Almacenamiento de Contenido",
+                "content": "La eliminación, corrupción o falta de almacenamiento de cualquier Contenido de Usuario u otros datos de comunicaciones mantenidos o transmitidos a través del uso del Servicio."
+            },
+            "accountInfo": {
+                "title": "Información de Cuenta",
+                "content": "Su falla en proporcionarnos información de cuenta precisa y actualizada, ya sea durante el registro o posteriormente."
+            },
+            "security": {
+                "title": "Seguridad de Contraseña",
+                "content": "Su falta de mantener la seguridad y confidencialidad de su contraseña o credenciales de cuenta."
+            }
+        },
+        "personalUse": {
+            "title": "Uso Personal",
+            "content": "Idilio.tv le proporciona esta Plataforma únicamente para su uso personal y doméstico. Usted acepta no utilizar el Servicio con fines comerciales, empresariales o de reventa no autorizados.",
+            "content2": "Nada en estos Términos excluirá o limitará nuestra responsabilidad por aquellos daños que por ley no pueden excluirse o limitarse.",
+            "content3": "En la máxima medida permitida por la ley, cualquier controversia o reclamo que usted tenga contra un tercero derivado de su uso del Servicio deberá ser resuelto exclusivamente entre usted y dicho tercero, sin involucrar a Idilio.tv.",
+            "content4": "Usted acepta liberar a Idilio.tv y a sus afiliadas de toda responsabilidad por reclamaciones, demandas y daños (presentes y futuros, conocidos o desconocidos) de cualquier tipo, derivados de disputas que surjan con otros usuarios del Servicio, con proveedores externos o con terceros en general relacionadas con su uso de la Plataforma."
+        },
+        "thirdPartyCharges": {
+            "title": "Cargos de Terceros",
+            "content": "Idilio.tv no cobra por el uso de su aplicación más allá de la cuota de suscripción, pero debe tener en cuenta que el uso del Servicio puede implicar cargos de terceros, como su proveedor de internet o telefonía móvil. Usted es el único responsable de todos los cargos de datos, tarifas de internet, costos de banda ancha, cargos por mensajes de texto (SMS/MMS) u otros costos asociados con el acceso y uso del Servicio. Si no está seguro de qué costos pueden aplicarse, consulte con su operador antes de usar la Plataforma en, por ejemplo, una red 4G/5G o al descargar contenido."
+        },
+        "classActionWaiver": {
+            "title": "Renuncia a Acciones Colectivas",
+            "content": "En la medida en que las leyes aplicables lo permitan, usted y Idilio.tv acuerdan que cada uno puede presentar reclamaciones contra el otro solo en nombre propio y no como demandante ni miembro de un grupo en una acción colectiva, consolidada o representativa. A menos que la ley aplicable disponga lo contrario, el juez o árbitro no podrá acumular las reclamaciones de más de una persona ni presidir de otro modo ningún procedimiento representativo o colectivo contra las partes."
+        },
+        "miscellaneous": {
+            "title": "Disposiciones Varias",
+            "governingLaw": {
+                "title": "Legislación aplicable y jurisdicción",
+                "content": "Estos Términos de Uso se regirán e interpretarán de acuerdo con las leyes de México, independientemente de sus normas de conflicto de leyes. Cualquier disputa, reclamación o controversia que surja en relación con el Servicio o con estos Términos, incluyendo cualquier cuestión relativa a su existencia, validez o terminación, será resuelta en última instancia por los tribunales competentes de México, salvo que la legislación aplicable disponga un mecanismo diferente (por ejemplo, alguna ley de protección al consumidor que otorgue la opción de acudir a ciertos foros). Al utilizar el Servicio, usted acepta someterse a la jurisdicción personal de dichos tribunales para la resolución de cualquier litigio, renunciando a cualquier objeción por motivos de jurisdicción territorial o foro inconveniente, en la medida permitida por la ley. (Si usted utiliza el Servicio desde otro país, pueden existir términos jurisdiccionales complementarios; de lo contrario, se aplicará lo anterior. Idilio.tv actualmente opera principalmente para el territorio mexicano.)"
+            },
+            "unsolicitedMaterials": {
+                "title": "Materiales no solicitados",
+                "content": "Nuestra política no aceptar ni considerar ideas, sugerencias o materiales no solicitados relacionados con contenidos, productos o servicios. Esto es para evitar malentendidos en caso de que proyectos desarrollados por Idilio.tv puedan parecer similares a ideas presentadas por usuarios. Por lo tanto, le pedimos que no envíe materiales creativos no solicitados. Si a pesar de esta solicitud, usted envía comentarios, ideas, sugerencias o propuestas creativas (la \"Retroalimentación\"), usted reconoce que Idilio.tv tiene la libertad de utilizar cualquier Retroalimentación proporcionada por usted sin compensación, reconocimiento ni restricción alguna, de cualquier manera (por ejemplo, desarrollando productos o contenidos basados en tales ideas o similares), y no estará sujeto a ninguna obligación de confidencialidad al respecto.",
+                "content2": "En concreto, Idilio.tv podrá ya sea ignorar su sugerencia, o adoptarla, o desarrollarla independientemente, sin que ello genere obligación hacia usted. Esta cláusula no pretende disminuir ninguno de sus derechos de propiedad intelectual sobre su propia obra, sino dejar claro que no se establecerá ninguna compensación o relación contractual por ideas creativas no solicitadas.",
+                "helpSupport": {
+                    "title": "Ayuda y soporte",
+                    "content": "Si necesita ayuda adicional para comprender el funcionamiento de nuestro Servicio o si tiene alguna consulta o problema con su cuenta, puede visitar nuestro Centro de Ayuda en el sitio web oficial de Idilio.tv o en la aplicación, donde encontrará artículos informativos y preguntas frecuentes. También puede contactarnos a través de las herramientas de soporte dentro de la Plataforma o mediante los canales de contacto publicados. Nuestro equipo de Servicio al Cliente hará todo lo razonablemente posible por asistirle. Tenga en cuenta que, en caso de que exista algún conflicto entre información proporcionada por nuestro equipo de Servicio al Cliente o en las secciones informativas de nuestro sitio web y lo establecido en estos Términos, prevalecerá lo estipulado en estos Términos."
+                },
+                "validityModifications": {
+                    "title": "Validez y modificaciones",
+                    "content": "Si alguna disposición (o parte de una disposición) de estos Términos se considera inválida, ilegal o inaplicable por un tribunal u organismo competente, dicha disposición se interpretará de la manera más cercana posible a la intención original según la ley aplicable, o en su caso se considerará separada del resto. La invalidez o inaplicabilidad de una sección en particular no afectará la validez y aplicabilidad de las disposiciones restantes de estos Términos, las cuales permanecerán en pleno vigor y efecto.",
+                    "content2": "Idilio.tv puede, cuando lo considere necesario, realizar modificaciones a estos Términos (como se describió en la sección de Aceptación y Modificación). En caso de realizarse cambios sustanciales, se lo notificaremos con al menos 60 días de anticipación a su aplicación, conforme lo allí señalado. Si usted no desea aceptar los Términos modificados, debe dejar de utilizar el Servicio y, de ser el caso, cancelar su membresía antes de la fecha en que los nuevos términos entren en vigor. El uso del Servicio tras esa fecha constituirá su aceptación de los cambios.",
+                    "assignment": {
+                        "title": "Cesión",
+                        "content": "Idilio.tv podrá ceder o transferir este acuerdo, incluyendo cualquier derecho u obligación derivada del mismo, en cualquier momento y a su entera discreción. En tal situación, dicha cesión liberará a Idilio.tv de sus obligaciones y el acuerdo continuará vigente con el nuevo titular. Usted no podrá ceder estos Términos ni transferir ninguno de sus derechos u obligaciones bajo los mismos a ningún tercero sin nuestro consentimiento previo por escrito."
+                    },
+                    "forceMajeure": {
+                        "title": "Fuerza mayor",
+                        "content": "Idilio.tv no será responsable por retrasos o incumplimientos en el suministro del Servicio cuando estos se deban a causas fuera de nuestro control razonable. Esto incluye, a título enunciativo, pero no limitativo: desastres naturales, incendios, inundaciones, tormentas, explosiones, guerras, conflictos armados, actos de terrorismo, disturbios o conmoción civil, huelgas, disputas laborales u otros conflictos industriales, pandemias, cortes generalizados de energía, fallos en redes de telecomunicaciones o internet de terceros, acciones gubernamentales, cambios regulatorios súbitos, o fallos de nuestros proveedores o subcontratistas por causas de fuerza mayor. Durante la persistencia de tales eventos, nuestras obligaciones quedarán suspendidas y nuestro tiempo para cumplirlas se ampliará por un periodo equivalente al de la duración del evento fuera de control. Haremos esfuerzos razonables para mitigar los efectos de estos eventos y, de ser posible, le notificaremos oportunamente sobre cualquier interrupción significativa del Servicio por estas causas."
+                    },
+                    "electronicCommunications": {
+                        "title": "Comunicaciones electrónicas",
+                        "content": "Idilio.tv se comunica con usted principalmente de forma electrónica. Esto significa que, tras crear una cuenta, usted acepta recibir de nuestra parte notificaciones relacionadas con su suscripción o cuenta únicamente por medios electrónicos, ya sea mediante correo electrónico a la dirección asociada a su cuenta, mensajes dentro de la Plataforma, notificaciones push de la aplicación móvil, o mediante la publicación de información en el sitio web oficial de Idilio.tv u otros canales electrónicos. Se considerará que cualquier comunicación electrónica tiene el mismo efecto legal que si fuera por escrito en papel. Es su responsabilidad mantener actualizada en su perfil una dirección de correo electrónico válida y revisar regularmente las comunicaciones que le enviemos."
+                    }
+                }
+            }
+        },
+        "prohibitedConsequences": {
+            "title": "Consecuencias del Incumplimiento",
+            "content": "El incumplimiento de cualquiera de las conductas anteriores constituye una violación grave de estos Términos. Idilio.tv se reserva el derecho de suspender o cancelar su cuenta y/o tomar las medidas legales pertinentes si usted incurre en alguno de los comportamientos prohibidos descritos, o si utiliza el Servicio de manera ilegal, fraudulenta o no autorizada."
+        },
+        "viewingExperience": {
+            "title": "Experiencia de Visualización",
+            "content": "La experiencia de visualización de contenido en Idilio.tv puede variar según el dispositivo que utilice y estar influenciada por diversos factores, como su ubicación, el ancho de banda disponible y la velocidad de su conexión a internet. La disponibilidad de la calidad HD (alta definición), Ultra HD (4K) o HDR en la reproducción depende de su servicio de internet y de las capacidades de su dispositivo. No todos los contenidos están disponibles en todos los formatos (HD, 4K, HDR, audio espacial, etc.), y no todos los planes de suscripción incluyen acceso a contenido en las calidades más altas. La velocidad mínima de conexión recomendada para recibir calidad HD (720p o superior) es de 3.0 Mbps por stream; para Full HD (1080p o superior) se recomiendan al menos 5.0 Mbps por stream; y para Ultra HD (4K o superior), al menos 15.0 Mbps por stream. Todas las tarifas asociadas a su conexión a internet correrán por su cuenta. Consulte con su proveedor de internet acerca de posibles cargos por consumo de datos, especialmente si utiliza la aplicación móvil en redes celulares. El tiempo de inicio de una reproducción de contenido puede variar según su ubicación, el ancho de banda disponible en ese momento, el contenido seleccionado y la configuración de su dispositivo. Asimismo, no garantizamos que el Servicio esté libre de errores, demoras, interrupciones o que siempre pueda establecer conexión con la máxima calidad disponible. Usted es responsable de asegurarse de contar con un dispositivo compatible y con los requisitos mínimos del sistema (incluyendo tener instalada la versión más reciente de la aplicación de Idilio.tv y las actualizaciones de software de su dispositivo) para acceder al Servicio."
+        },
+        "software": {
+            "title": "Software de Idilio.tv",
+            "content": "El software de Idilio.tv (incluida la aplicación móvil y otros componentes) es desarrollado por o para Idilio.tv, y se le licencia con el único propósito de permitirle el acceso legítimo al Servicio y al Contenido, a través de dispositivos compatibles. Este software puede variar según el dispositivo o la plataforma, y sus funcionalidades pueden diferir entre distintos entornos.",
+            "content2": "Al utilizar la Plataforma, usted acepta que el software podría descargar e instalar automáticamente actualizaciones, parches o versiones nuevas para mejorar el Servicio, corregir errores o agregar funcionalidades, y que dichas actualizaciones pueden realizarse en su dispositivo en forma automática, con o sin notificación. Todo software de terceros (por ejemplo, reproductores de video, bibliotecas de código abierto, etc.) incluido o que interactúe con el Servicio estará sujeto a las licencias de esos terceros, no siendo Idilio.tv responsable de dichos componentes externos. Usted se compromete a no copiar, modificar, extraer ni distribuir el software de Idilio.tv, salvo en la medida en que la ley aplicable expresamente lo permita. Idilio.tv puede revocar su licencia de uso del software en cualquier momento si incumple estos Términos."
+        },
+        "passwordSecurity": {
+            "title": "Contraseña, Seguridad y Acceso a la Cuenta",
+            "content": "Usted es responsable de mantener la confidencialidad de su contraseña y de cualquier credencial que utilice para acceder a su cuenta de Idilio.tv. Asimismo, es enteramente responsable de todas las actividades que ocurran bajo su cuenta.",
+            "content2": "Del mismo modo, nos reservamos el derecho de cancelar o deshabilitar su cuenta (sin responsabilidad hacia usted) si consideramos, a nuestra entera discreción, que usted ha violado materialmente estos Términos o ha incurrido en uso ilegal o inapropiado del Servicio."
+        },
+        "contentIP": {
+            "title": "Contenido y Propiedad Intelectual",
+            "subtitle": "Contenido del Servicio",
+            "content": "Todo el contenido proporcionado por Idilio.tv o disponible a través del Servicio – incluyendo, pero no limitado a, videos, series, películas, clips, avances, imágenes, textos, gráficos, logos, interfaces, software, funciones interactivas, diseños y cualquier otro material – es propiedad de Idilio.tv o de sus licenciantes, y está protegido por las leyes de propiedad intelectual (derechos de autor, marcas registradas, patentes, secretos industriales, etc.) aplicables.",
+            "content2": "La compilación, organización y presentación de dicho contenido, así como el software y las bases de datos que lo respaldan, son también propiedad protegida de Idilio.tv y sus proveedores. Al utilizar el Servicio, usted no adquiere ninguna propiedad sobre el Contenido de Idilio.tv ni sobre las marcas, logos u otros elementos protegidos. Idilio.tv le otorga una licencia limitada, no exclusiva, revocable y no transferible para acceder al Contenido del Servicio y visualizarlo a través de la Plataforma, exclusivamente para fines personales y no comerciales, de acuerdo con estos Términos. Excepto por esta licencia limitada, no se le concede ningún otro derecho sobre el Contenido. Queda estrictamente prohibido el uso del Contenido de Idilio.tv para cualquier fin que no esté expresamente permitido en estos Términos."
+        },
+        "contentRestrictions": {
+            "title": "Restricciones de Contenido",
+            "content": "En particular, usted no debe descargar (salvo el contenido específicamente disponible para descarga offline según lo permitido por el Servicio), copiar, reproducir (más allá de la visualización temporal durante el streaming), retransmitir, distribuir, emitir, exhibir, vender, licenciar, alterar, crear obras derivadas ni explotar de cualquier forma el Contenido de Idilio.tv, en todo ni en parte, sin nuestro previo consentimiento por escrito. Idilio.tv y Idilio.tv, así como sus logotipos, marcas comerciales, nombres de servicio y otros identificadores de propiedad, son marcas registradas o no registradas de Idilio.tv. Ninguna disposición en estos Términos deberá interpretarse como un otorgamiento de licencia o derecho para usar cualquiera de dichas marcas sin la autorización por escrito de sus dueños correspondientes."
+        },
+        "thirdPartyAds": {
+            "title": "Publicidad de Terceros",
+            "content": "Es posible que durante el uso del Servicio usted encuentre anuncios publicitarios o contenido promocional de terceros especialmente si su plan incluye anuncios. Idilio.tv no avala ni garantiza ningún producto o servicio que pueda ser publicitado por terceros en la Plataforma. La inclusión de publicidad de terceros no implica recomendación o respaldo. Cualquier interacción, correspondencia o relación comercial que usted tenga con anunciantes o terceros encontrados en el Servicio es exclusivamente entre usted y dicho tercero. No somos responsables de los términos, garantías, acciones, omisiones o lesiones relacionadas con dichas transacciones con terceros. (Más detalles sobre limitaciones de responsabilidad hacia terceros se proporcionan en secciones posteriores)."
+        },
+        "userContent": {
+            "title": "Contenido de Usuario",
+            "intro": "Idilio.tv puede permitir a los usuarios crear, cargar, publicar, transmitir o poner a disposición cierto contenido propio a través de la Plataforma, tales como videos cortos, comentarios, reseñas, fotografías, grabaciones de audio, gráficos, mensajes, interacciones sociales u otros materiales (en conjunto, \"Contenido de Usuario\"). Al generar o enviar Contenido de Usuario en Idilio.tv, usted acepta las siguientes condiciones:",
+            "rights": {
+                "title": "Derechos sobre su contenido",
+                "content": "Usted afirma que es propietario del Contenido de Usuario que publica o, alternativamente, que cuenta con todas las licencias, derechos, consentimientos y permisos necesarios por parte de los propietarios correspondientes para publicar dicho contenido en la Plataforma y otorgar a Idilio.tv los derechos descritos en estos Términos. Esto significa, por ejemplo, que si comparte una grabación de video o audio, usted posee los derechos sobre todas las partes del contenido (imagen, sonido, música de fondo, etc.), o ha obtenido las autorizaciones pertinentes de los titulares de derechos (como la disquera, el compositor o el editor de una canción, o las personas que aparezcan en el video) para su uso y sublicencia a nosotros. No publique contenido que no le pertenezca o sobre el cual no tenga derecho de uso; usted será el único responsable de asegurar que el contenido que comparte no infringe derechos de terceros."
+            },
+            "prohibitedContent": {
+                "title": "Prohibición de contenido infractor o inapropiado",
+                "content": "Cualquier Contenido de Usuario que usted aporte debe cumplir con las normas de conducta y contenido establecidas en la sección \"Uso prohibido\" de estos Términos y con nuestras Normas de la Comunidad. En particular, usted se compromete a no publicar contenido que sea ilegal, ofensivo, violento, difamatorio, obsceno, que viole derechos de terceros (por ejemplo, contenido que contenga música, imágenes o videos de terceros con derechos de autor sin permiso) o que de cualquier modo incumpla las prohibiciones detalladas anteriormente. Usted entiende que es plenamente responsable por el material que aporte y por cualquier consecuencia de publicarlo."
+            },
+            "licenseToIdilio": {
+                "title": "Licencia a favor de Idilio.tv",
+                "content": "Al publicar o cargar Contenido de Usuario en la Plataforma, usted concede a Idilio.tv y a sus afiliadas una licencia global, no exclusiva, libre de regalías, sublicenciable y transferible para usar, alojar, almacenar, reproducir, distribuir, transmitir, publicar, exhibir públicamente, ejecutar públicamente, reformatear, editar, adaptar, modificar, crear obras derivadas de dicho Contenido de Usuario (por ejemplo, traducciones, reubicación en diferentes secciones, compilaciones, extractos, etc.), y de otro modo explotar dicho contenido, en cualquier formato o medio conocido actualmente o desarrollado en el futuro. Esta licencia se otorga por el plazo máximo permitido por la ley (incluyendo de forma perpetua, si la legislación aplicable lo permite). Esta licencia nos permite, por ejemplo, exhibir su contenido en la Plataforma a otros usuarios, promocionar el contenido (suyo o del Servicio en general) en otros medios o redes sociales, incorporarlo en presentaciones de marketing, distribuirlo a través de nuestros canales oficiales, o utilizar fragmentos para fines operativos y de mejora del servicio (como algoritmos de recomendaciones)."
+            },
+            "userAccess": {
+                "title": "Acceso de otros usuarios",
+                "content": "Asimismo, nos autoriza a poner su Contenido de Usuario a disposición de otros usuarios de Idilio.tv, quienes podrán verlo, reproducirlo, comentarlo, compartirlo o incluso crear obras derivadas dentro de la Plataforma (por ejemplo, mediante funciones de dúo, reacción o remixes, si la Plataforma las ofrece, siempre respetando las configuraciones de privacidad que usted haya establecido). También podremos permitir que terceros (colaboradores, empresas asociadas o plataformas donde se comparta contenido de Idilio.tv) accedan y utilicen su contenido a través de la Plataforma, bajo las funcionalidades previstas (por ejemplo, si su contenido es compartido externamente mediante alguna integración de redes sociales, reproductores insertables o API que proporcionemos)."
+            },
+            "nameImageRights": {
+                "title": "Derechos sobre nombre e imagen",
+                "content": "Como parte de la licencia que nos otorga, usted acepta que podamos utilizar su nombre de usuario, imagen, voz y semejanza asociados a su Contenido de Usuario para identificarlo como el autor original dentro de la Plataforma, así como en cualquier uso o comunicación de su contenido conforme a la licencia anterior. Por ejemplo, podríamos mostrar su nombre de perfil junto a un video que publicó, o incluir su foto de perfil en un collage promocional que incluya contenido generado por usuarios. Esta autorización es igualmente libre de regalías y forma parte del derecho que nos concede sobre el contenido."
+            },
+            "waiverMoralRights": {
+                "title": "Renuncia a derechos morales y de publicidad",
+                "content": "En la medida en que la ley aplicable lo permita, al enviar Contenido de Usuario usted renuncia y acuerda no ejercer frente a Idilio.tv ni a terceros autorizados, cualquier derecho moral o derecho de autor personalísimo que pudiera tener sobre dicho contenido. Esto incluye, por ejemplo, el derecho a ser identificado como autor, el derecho a oponerse a ciertas modificaciones o usos del contenido, o el derecho a solicitar una compensación por el uso de su obra. Asimismo, usted renuncia a cualquier derecho a revisar o aprobar cualquier uso, modificación o material promocional relacionado con su Contenido de Usuario. Idilio.tv podrá, a su discreción, adaptar o editar el contenido que usted aporte (por ejemplo, recortar un video por cuestiones de formato o moderación), y usted acepta que no tendrá aprobación previa ni podrá reclamar por tales modificaciones permitidas por esta licencia. Usted también entiende que no tendrá derecho a regalías, pagos u otra compensación por parte de Idilio.tv, sus afiliados o usuarios por el uso de su Contenido de Usuario según lo autorizado en estos Términos."
+            },
+            "musicSpecifications": {
+                "title": "Especificaciones para música y contenido protegido",
+                "content": "Si su Contenido de Usuario incluye obras musicales, grabaciones de sonido u otros materiales protegidos por derechos de autor de terceros (por ejemplo, si utiliza una canción comercial de fondo en su video, o incluye fragmentos de videos de terceros), es obligatorio que cuente con todas las licencias o permisos necesarios para ello. Tenga en cuenta que la mayoría de las obras musicales y audiovisuales comerciales tienen propietarios específicos (como discográficas, editoriales musicales, productores, etc.), y que publicar ese contenido sin autorización puede infringir derechos de autor. Si usted es músico, compositor o autor y está afiliado a una sociedad de gestión colectiva (como SACM, ASCAP, BMI, etc.) o ha cedido derechos a una editorial musical, debe asegurarse de que la licencia que nos otorga en estos Términos no contravenga sus acuerdos con dichas entidades. Por ejemplo, algunas sociedades pueden exigir notificación de licencias no exclusivas como la que nos concede; es su responsabilidad cumplir con esas obligaciones de reporte. Si usted es un artista bajo contrato con una compañía discográfica u otra entidad, también es su responsabilidad garantizar que el uso que haga de Idilio.tv (incluyendo la creación y publicación de nuevas grabaciones o videos dentro de la Plataforma) esté permitido por los términos de sus contratos. En resumen, usted declara y garantiza que cualquier contenido que publique, incluyendo música u obras de terceros incorporadas, no violará derechos de autor ni otros derechos, y que ha obtenido todos los consentimientos necesarios para su uso en Idilio.tv. Usted acepta indemnizarnos (ver sección de Indemnización más adelante) por cualquier incumplimiento a esta representación."
+            },
+            "privacyControl": {
+                "title": "Control de privacidad y visibilidad",
+                "content": "Idilio.tv puede ofrecer configuraciones de privacidad o audiencia para el Contenido de Usuario que usted comparte (por ejemplo, opciones para que un video sea público para todos los usuarios de la Plataforma, solo visible para sus seguidores, o privado para usted). Usted es responsable de seleccionar la configuración deseada en el momento de publicar su contenido. Por defecto, y salvo que la Plataforma ofrezca opciones distintas, el contenido que usted publique podría ser visible públicamente para otros usuarios de Idilio.tv y potencialmente indexado o compartido a través de internet. Si desea restringir el acceso a su Contenido de Usuario, reviste las opciones de privacidad antes de publicar. Tenga en cuenta que, incluso si elimina contenido o lo pone en privado, es posible que otros usuarios ya lo hayan visto, grabado o compartido durante el tiempo en que estuvo público, y Idilio.tv no puede controlar completamente ese uso fuera de la Plataforma."
+            },
+            "moderation": {
+                "title": "Moderación y uso del contenido",
+                "content": "Usted reconoce que no estamos obligados a preseleccionar, monitorear ni editar el Contenido de Usuario publicado en la Plataforma. Sin embargo, nos reservamos el derecho (mas no la obligación) de revisar, remover, bloquear o rechazar la publicación de cualquier Contenido de Usuario, total o parcialmente, que a nuestra entera discreción consideremos que no cumple con estos Términos, con las Normas de la Comunidad, o que resulta de algún modo objetable, ilegal, ofensivo o pueda generar responsabilidad para nosotros o para nuestros usuarios. Podemos actuar así con o sin notificación. Por ejemplo, si otros usuarios reportan contenido que usted publicó, o si un titular de derechos nos envía un aviso de infracción (como una notificación conforme a la ley de derechos de autor aplicable), podemos retirar o inhabilitar el acceso a su contenido mientras evaluamos la situación, e incluso eliminarlo permanentemente si encontramos una violación. No asumimos responsabilidad por cualquier decisión de moderación (eliminar o no eliminar contenido) que tomemos de buena fe para mantener un entorno seguro y conforme a estos Términos.",
+                "repeatInfringement": {
+                    "title": "Política de infracción repetida",
+                    "content": "Es política de Idilio.tv, en circunstancias apropiadas y a nuestra discreción, suspender o eliminar las cuentas de usuarios que violen reiteradamente los derechos de propiedad intelectual de otros. Por ejemplo, si recibimos múltiples quejas válidas de copyright en contra de un mismo usuario, o si detectamos un patrón de abuso, podremos cancelar su cuenta. También podremos notificar a las autoridades competentes si el contenido infractor pudiera constituir un delito."
+                },
+                "abuseReporting": {
+                    "title": "Reporte de abusos",
+                    "content": "Si usted detecta contenido de otros usuarios que considera que infringe estos Términos (p. ej., contenido ilegal, inapropiado o violatorio de derechos), puede reportarlo a través de las herramientas de \"Reportar/Denunciar\" disponibles en la Plataforma o contactando a nuestro equipo de Soporte. Tomaremos las medidas que consideremos adecuadas conforme a nuestras políticas y la legislación aplicable, lo que puede incluir la eliminación del contenido y medidas contra la cuenta infractora. Sin embargo, el simple envío de un reporte no garantiza que se tome acción; evaluaremos cada caso."
+                },
+                "preservationCopies": {
+                    "title": "Conservación y copias",
+                    "content": "No garantizamos el almacenamiento permanente ni la disponibilidad continua de su Contenido de Usuario en la Plataforma. Es responsabilidad del usuario conservar copias de respaldo de cualquier contenido que aporte y que desee mantener. Idilio.tv no se hace responsable por la pérdida de cualquier Contenido de Usuario debido a eliminación por nuestra parte, fallas técnicas, cierre de su cuenta o cualquier otra razón. La Plataforma no está diseñada como servicio de respaldo para contenido; por tanto, le recomendamos mantener sus propios archivos de los videos u otros materiales que suba."
+                },
+                "automatedAnalysis": {
+                    "title": "Análisis automatizado",
+                    "content": "Usted entiende que, con el fin de proporcionar funciones personalizadas y mantener la integridad del Servicio, Idilio.tv puede emplear sistemas automatizados que analizan el contenido (incluyendo el Contenido de Usuario) a medida que es cargado, enviado, recibido y almacenado en la Plataforma. Este análisis automatizado puede emplearse para, por ejemplo, facilitar resultados de búsqueda personalizados, seleccionar o moderar publicidad relevante, detectar comportamientos sospechosos, spam o malware, así como para verificar que los contenidos cumplan con nuestras normas (detección automática de desnudez, violencia, infracciones de derechos de autor conocidos mediante hash digital, etc.). Al usar el Servicio, usted nos autoriza a llevar a cabo este tipo de procesamiento y análisis de su contenido, que ocurre de manera electrónica. Ningún sistema es perfecto, pero estos procedimientos nos ayudan a proteger a la comunidad y mejorar su experiencia."
+                }
+            }
+        },
+        "userContentSummary": {
+            "title": "Resumen del Contenido de Usuario",
+            "content": "En resumen, al compartir Contenido de Usuario en Idilio.tv, usted conserva la titularidad de sus derechos de autor sobre dicho contenido, pero nos otorga los permisos necesarios para operar, promocionar y mejorar el Servicio con su contenido, sin compensación para usted (salvo que llegáramos a acordar algo en un programa especial por separado, lo cual en general no ocurre para usuarios comunes). Si no desea concedernos estos derechos, por favor no publique contenido en la Plataforma."
+        },
+        "indemnification": {
+            "title": "Indemnización",
+            "content": "Usted se compromete a indemnizar, defender y mantener indemne a Idilio.tv, sus empresas matrices, subsidiarias, afiliadas, así como a sus respectivos directivos, empleados, agentes, socios comerciales y licenciantes, de y contra cualquier reclamación, demanda, acción, daño, pérdida, costo o gasto (incluidos honorarios razonables de abogados) que surja de o esté relacionado con: (a) el Contenido de Usuario que usted publique, transmita o comparta a través de Idilio.tv; (b) el uso que usted haga del Servicio o actividades relacionadas con su cuenta; (c) su incumplimiento o violación de cualquiera de las disposiciones de estos Términos o de la ley aplicable; o (d) cualquier violación de derechos de terceros, incluyendo, sin limitarse a, derechos de propiedad intelectual, privacidad, publicidad o propiedad, causada por usted o por cualquier persona que use su cuenta (con o sin su permiso). Nos reservamos el derecho a asumir la defensa y control exclusivos de cualquier asunto sujeto a indemnización por su parte, en cuyo caso usted se compromete a cooperar con nosotros en la defensa de dicha reclamación y a no resolver ninguna reclamación sin nuestro consentimiento previo por escrito."
+        },
+        "warrantyDisclaimers": {
+            "title": "Exención de Garantías",
+            "intro": "El uso que usted haga de Idilio.tv será bajo su propia responsabilidad. Por favor tenga en cuenta las siguientes exenciones de garantías respecto al Servicio:",
+            "asIs": {
+                "title": "\"Tal cual\"",
+                "content": "El Servicio de Idilio.tv (incluyendo la Plataforma, el Contenido, las funcionalidades y el software asociado) se proporciona \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo por parte de Idilio.tv, ya sean expresas, implícitas o legales. En la máxima medida permitida por la ley, no realizamos declaración ni garantía alguna expresa (y rechazamos cualquier garantía implícita) de comerciabilidad, calidad satisfactoria, idoneidad para un propósito particular, exactitud, disfrute pacífico o no infracción."
+            },
+            "noUninterrupted": {
+                "title": "Sin garantía de funcionamiento ininterrumpido",
+                "content": "No garantizamos que el Servicio cumplirá con sus expectativas o requerimientos, ni que funcionará de manera ininterrumpida, oportuna, segura o libre de errores en todo momento. Si bien nos esforzamos por brindar la mejor experiencia, no prometemos que la transmisión de video estará siempre libre de demoras, que el contenido estará siempre disponible sin interrupciones, o que los defectos del Servicio (si los hubiera) serán corregidos inmediatamente."
+            },
+            "accuracyInfo": {
+                "title": "Exactitud de la información",
+                "content": "No garantizamos que cualquier información obtenida a través del Servicio (por ejemplo, sinopsis, listados, recomendaciones, comentarios de otros usuarios, o cualquier contenido de la Plataforma) sea precisa, completa o fiable. El contenido provisto es principalmente para propósitos de entretenimiento e informativos generales y no constituye asesoramiento profesional de ningún tipo. Si usted decidiera tomar decisiones en base a información obtenida del Servicio lo hace bajo su propia responsabilidad. Para asesoramiento profesional específico (médico, legal, financiero, etc.), deberá consultar a un profesional calificado."
+            },
+            "securityViruses": {
+                "title": "Seguridad y virus",
+                "content": "No garantizamos que la Plataforma esté libre de bugs, virus u otros componentes dañinos. Aunque implementamos medidas de seguridad y filtrado, cualquier contenido descargado u obtenido de otro modo mediante el uso del Servicio se accede bajo su propia discreción y riesgo. Usted será el único responsable de cualquier daño en su dispositivo o pérdida de datos que resulte de la descarga o uso de cualquier material obtenido a través del Servicio."
+            },
+            "advertisingThirdParty": {
+                "title": "Publicidad y contenido de terceros",
+                "content": "Idilio.tv podría desplegar anuncios o contenido de terceros como parte del Servicio, especialmente en planes con publicidad. No ofrecemos ninguna garantía en cuanto a dichos anuncios o contenidos de terceros. No respaldamos ni asumimos responsabilidad por la calidad, disponibilidad, exactitud o fiabilidad de productos, servicios, información u otros materiales que le sean mostrados u ofertados por terceros a través de anuncios en nuestra Plataforma. Cualquier relación que usted establezca con anunciantes u otros terceros encontrados en el Servicio, incluyendo la participación en promociones o transacciones comerciales, es exclusivamente entre usted y el tercero de que se trate. Idilio.tv no será responsable de ninguna pérdida o daño de ningún tipo en que usted incurra como resultado de tales interacciones o de la presencia de anunciantes de terceros en el Servicio. Idilio.tv podrá recibir una contraprestación por el despliegue de esos anuncios, sin que esto constituya un patrocinio de este."
+            },
+            "consumerRights": {
+                "title": "Derechos del consumidor",
+                "content": "Nada en estos Términos pretende excluir o limitar las garantías, condiciones o derechos irrenunciables que por ley le correspondan como consumidor. Algunas jurisdicciones no permiten la exclusión de ciertas garantías o la limitación de ciertos derechos, por lo que algunas de las exclusiones anteriores podrían no aplicarse en su caso. Estos Términos no afectan los derechos legales obligatorios que no pueden ser renunciados contractualmente."
+            }
+        }
+    },
+    "backToHome": "Volver al Inicio"
 }
