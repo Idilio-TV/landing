@@ -196,6 +196,23 @@
         },
         "backToHome": "Back to Home"
     },
+    "Show": {
+        "downloadApp": "Download App",
+        "availableOn": "Available on iOS and Android",
+        "episodes": "Episodes",
+        "season": "Season",
+        "episode": "Episode",
+        "available": "Available",
+        "comingSoon": "Coming Soon",
+        "episodesComingSoon": "Episodes coming soon...",
+        "readyToWatch": "Ready to start watching?",
+        "downloadAppDescription": "Download the idilio TV app and start streaming your favorite shows today.",
+        "getTheApp": "Get the App",
+        "showNotFound": "Show Not Found",
+        "showNotFoundDescription": "The requested show could not be found.",
+        "showTitle": "Show - Idilio.TV",
+        "showDescription": "Watch your favorite shows on idilio TV"
+    },
     "Privacy": {
         "title": "Privacy Notice | idilio.tv",
         "description": "Read our privacy notice to understand how idilio.tv collects, uses, and protects your personal information. Learn about your rights and our data practices.",
