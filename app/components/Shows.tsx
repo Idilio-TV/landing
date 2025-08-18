@@ -26,7 +26,7 @@ export default function Shows() {
                         title={t(`${show}Title`)}
                         desc={t(`${show}Desc`)}
                         img={t(`${show}Img`)}
-                        // themes={showThemes[show].map(theme => t(`themes.${theme}`))}
+                        themes={showThemes[show].map(theme => t(`themes.${theme}`))}
                         key={idx} />
                 ))}
             </div>
