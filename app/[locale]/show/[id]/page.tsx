@@ -28,11 +28,12 @@ export async function generateStaticParams() {
 }
 
 // Generate metadata for each show
-export async function generateMetadata({ params }: { params: { locale: string; id: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }): Promise<Metadata> {
+    const { id } = await params
     const t = await getTranslations('Show')
 
     try {
-        const show = await getShowById(params.id)
+        const show = await getShowById(id)
         if (!show) {
             return {
                 title: t('showNotFound'),
@@ -58,7 +59,7 @@ export async function generateMetadata({ params }: { params: { locale: string; i
 }
 
 interface ShowPageProps {
-    params: Promise<{ id: string }>;
+    params: Promise<{ locale: string; id: string }>;
 }
 
 export default async function ShowPage({ params }: ShowPageProps) {
