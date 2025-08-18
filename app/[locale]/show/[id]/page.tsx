@@ -63,6 +63,7 @@ export default async function ShowPage({ params }: { params: { id: string } }) {
                     <div className="relative">
                         {show.poster ? (
                             <div className="relative overflow-hidden rounded-lg shadow-2xl">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img
                                     src={show.poster.picture_id}
                                     alt={`${show.title} poster`}

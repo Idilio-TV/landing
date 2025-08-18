@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowLeft, Home } from 'lucide-react'
+import { Home } from 'lucide-react'
 
 export default function ShowNotFound() {
     return (
@@ -11,7 +11,7 @@ export default function ShowNotFound() {
                         Show Not Found
                     </h2>
                     <p className="text-xl text-gray-300 mb-8">
-                        The show you're looking for doesn't exist or has been removed.
+                        The show you&apos;re looking for doesn&apos;t exist or has been removed.
                     </p>
                 </div>
 
