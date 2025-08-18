@@ -1,9 +1,10 @@
 import { getAllShows } from '@/lib/supabase-requests'
 import Link from 'next/link'
 import { ArrowRight, Play } from 'lucide-react'
+import { Show } from '@/lib/supabase'
 
 export default async function ShowsPage() {
-    let shows: any[] = []
+    let shows: Show[] = []
 
     try {
         shows = await getAllShows()
@@ -33,6 +34,7 @@ export default async function ShowsPage() {
                             >
                                 <div className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
                                     <div className="relative h-64">
+                                        {/* eslint-disable-next-line @next/next/no-img-element */}
                                         <img
                                             src={`/shows/${show.title.toLowerCase().replace(/\s+/g, '-')}.jpg`}
                                             alt={`${show.title} poster`}
