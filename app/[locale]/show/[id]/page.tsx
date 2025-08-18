@@ -8,9 +8,19 @@ import { getTranslations } from 'next-intl/server'
 export async function generateStaticParams() {
     try {
         const showIds = await getShowIdsForStaticGeneration()
-        return showIds.map((id) => ({
-            id,
-        }))
+        const locales = ['en', 'es']
+
+        const params = []
+        for (const locale of locales) {
+            for (const id of showIds) {
+                params.push({
+                    locale,
+                    id,
+                })
+            }
+        }
+
+        return params
     } catch {
         console.error('Error generating static params')
         return []
@@ -18,7 +28,7 @@ export async function generateStaticParams() {
 }
 
 // Generate metadata for each show
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { locale: string; id: string } }): Promise<Metadata> {
     const t = await getTranslations('Show')
 
     try {
@@ -47,7 +57,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
     }
 }
 
-export default async function ShowPage({ params }: { params: { id: string } }) {
+export default async function ShowPage({ params }: { params: { locale: string; id: string } }) {
     const t = await getTranslations('Show')
     const show = await getShowById(params.id)
     if (!show) {
