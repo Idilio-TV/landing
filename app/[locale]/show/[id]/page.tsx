@@ -57,9 +57,14 @@ export async function generateMetadata({ params }: { params: { locale: string; i
     }
 }
 
-export default async function ShowPage({ params }: { params: { locale: string; id: string } }) {
+interface ShowPageProps {
+    params: Promise<{ id: string }>;
+}
+
+export default async function ShowPage({ params }: ShowPageProps) {
+    const { id } = await params
     const t = await getTranslations('Show')
-    const show = await getShowById(params.id)
+    const show = await getShowById(id)
     if (!show) {
         notFound()
     }
