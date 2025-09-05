@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ArrowRight, Play, Download } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useDeviceDetection } from '@/app/hooks/useDeviceDetection';
