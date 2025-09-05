@@ -71,6 +71,7 @@
             "betrayal": "Betrayal",
             "fLove": "Forbidden Love",
             "romance": "Romance",
+            "crime": "Crime",
             "sports": "Sports",
             "mistery": "Mistery",
             "murder": "Murder",
@@ -842,5 +843,17 @@
             }
         }
     },
-    "backToHome": "Volver al Inicio"
+    "backToHome": "Volver al Inicio",
+    "DownloadModal": {
+        "title": "Download our app",
+        "subtitle": "Scan the QR codes below to download on your mobile device",
+        "downloadForIphone": "Download for iPhone",
+        "downloadForAndroid": "Download for Android",
+        "downloadFromAppStore": "Download from App Store",
+        "downloadFromPlayStore": "Download from Play Store",
+        "scanToDownload": "Scan to download",
+        "visitStoresDirectly": "Or visit the stores directly:",
+        "appStore": "App Store",
+        "playStore": "Play Store"
+    }
 }

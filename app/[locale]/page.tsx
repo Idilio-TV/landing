@@ -5,6 +5,7 @@ import Shows from "../components/Shows"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import CookiesBanner from "../components/CookiesBanner"
+import AppDownloadWrapper from "../components/AppDownloadWrapper"
 import { Toaster } from "react-hot-toast"
 import { Analytics } from "@vercel/analytics/next"
 import { Metadata } from "next"
@@ -23,6 +24,7 @@ export default function Home() {
     <main className="bg-black text-white">
       <Toaster />
       <Analytics />
+      <AppDownloadWrapper />
       <Hero />
       <ContentSection />
       <Team />

@@ -754,5 +754,17 @@
             "gamesTVAndWebContent": "algunos \"Juegos de idiolio.tv en TV y en idilio.tv\" (ver Idilio.tv/ayuda/juegos-en-TV) le permiten a usted y a otros jugadores conectarse a un juego en la cuenta de un miembro utilizando una aplicación de IDILIO.TV en sus dispositivos. Para algunos de estos juegos, es posible que usted no necesite iniciar sesión en una cuenta de IDILIO.TV para jugar. En tal caso, algunas de las disposiciones de este Aviso de Privacidad (y de estas Divulgaciones Suplementarias) no aplicarán en su caso, tales como aquellas relacionadas con la recopilación y uso de detalles personales (ver definición arriba), y las secciones relacionadas con detalles de pago y facturación. La información que se recopile como parte de \"Juegos de IDILIO.TV en TV o en IDILIO.TV.com\", tales como información de uso, información de dispositivos y red, comunicaciones, y partidas guardadas o información de la actividad en el juego, puede vincularse a la cuenta de IDILIO.TV en la cual se esté ejecutando el juego."
         },
         "backToHome": "Volver al Inicio"
+    },
+    "DownloadModal": {
+        "title": "Descarga nuestra app",
+        "subtitle": "Escanea los códigos QR a continuación para descargar en tu dispositivo móvil",
+        "downloadForIphone": "Descargar para iPhone",
+        "downloadForAndroid": "Descargar para Android",
+        "downloadFromAppStore": "Descargar desde App Store",
+        "downloadFromPlayStore": "Descargar desde Play Store",
+        "scanToDownload": "Escanea para descargar",
+        "visitStoresDirectly": "O visita las tiendas directamente:",
+        "appStore": "App Store",
+        "playStore": "Play Store"
     }
 }
