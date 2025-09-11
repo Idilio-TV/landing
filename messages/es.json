@@ -766,5 +766,37 @@
         "visitStoresDirectly": "O visita las tiendas directamente:",
         "appStore": "App Store",
         "playStore": "Play Store"
+    },
+    "DownloadPage": {
+        "title": "Descargar App Idilio TV | Mira Tus Series Favoritas",
+        "description": "Descarga la app de Idilio TV y disfruta de series exclusivas, microdramas y contenido original. Disponible en iOS y Android.",
+        "heroTitle": "Descarga Idilio TV",
+        "heroSubtitle": "Mira series exclusivas y microdramas en cualquier lugar, en cualquier momento",
+        "downloadNow": "Descargar Ahora",
+        "availableOn": "Disponible en iOS y Android",
+        "featuresTitle": "¿Por qué elegir Idilio TV?",
+        "feature1Title": "Móvil Primero",
+        "feature1Description": "Diseñado para visualización móvil con una interfaz intuitiva que hace que el binge-watching sea fácil",
+        "feature2Title": "Descargas Offline",
+        "feature2Description": "Descarga tus episodios favoritos para ver sin conexión, perfecto para viajar o desplazarte",
+        "feature3Title": "Contenido Exclusivo",
+        "feature3Description": "Accede a series originales y microdramas que no encontrarás en ningún otro lugar",
+        "instructionsTitle": "Cómo Descargar",
+        "iosInstructions": "Descargar para iPhone",
+        "androidInstructions": "Descargar para Android",
+        "mobileInstructions": "Descargar para Móvil",
+        "mobileDescription": "Toca el botón de descarga para ir directamente a la tienda de apps de tu dispositivo",
+        "desktopInstructions": "Descargar para Móvil",
+        "desktopDescription": "Escanea el código QR con tu teléfono para descargar la app",
+        "showQRCodes": "Mostrar Códigos QR",
+        "finalCtaTitle": "Comienza Tu Viaje",
+        "finalCtaDescription": "Únete a miles de espectadores que ya están disfrutando del contenido exclusivo de Idilio TV",
+        "getStartedNow": "Comenzar Ahora"
+    },
+    "Header": {
+        "home": "Inicio",
+        "shows": "Series",
+        "downloadApp": "Descargar App",
+        "subscribe": "Suscríbete"
     }
 }

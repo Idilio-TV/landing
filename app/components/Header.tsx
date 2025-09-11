@@ -1,6 +1,11 @@
+"use client";
+
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 export default function Header() {
+    const t = useTranslations('Header');
+
     return (
         <header className="bg-black text-white flex justify-between items-center px-6 py-4 shadow-md">
             <div className="flex items-center space-x-8">
@@ -12,16 +17,19 @@ export default function Header() {
 
                 <nav className="hidden md:flex space-x-6">
                     <Link href="/" className="hover:text-pink-300 transition-colors">
-                        Home
+                        {t('home')}
                     </Link>
                     <Link href="/shows" className="hover:text-pink-300 transition-colors">
-                        Shows
+                        {t('shows')}
+                    </Link>
+                    <Link href="/download" className="hover:text-pink-300 transition-colors">
+                        {t('downloadApp')}
                     </Link>
                 </nav>
             </div>
 
             <button className="bg-white text-black px-5 py-2 rounded-full hover:bg-gray-200 transition">
-                Suscríbete
+                {t('subscribe')}
             </button>
         </header>
     )

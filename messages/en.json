@@ -855,5 +855,37 @@
         "visitStoresDirectly": "Or visit the stores directly:",
         "appStore": "App Store",
         "playStore": "Play Store"
+    },
+    "DownloadPage": {
+        "title": "Download Idilio TV App | Watch Your Favorite Shows",
+        "description": "Download the Idilio TV app and enjoy exclusive series, microdramas, and original content. Available on iOS and Android.",
+        "heroTitle": "Download Idilio TV",
+        "heroSubtitle": "Watch exclusive series and microdramas anywhere, anytime",
+        "downloadNow": "Download Now",
+        "availableOn": "Available on iOS and Android",
+        "featuresTitle": "Why Choose Idilio TV?",
+        "feature1Title": "Mobile First",
+        "feature1Description": "Designed for mobile viewing with an intuitive interface that makes binge-watching effortless",
+        "feature2Title": "Offline Downloads",
+        "feature2Description": "Download your favorite episodes to watch offline, perfect for commuting or traveling",
+        "feature3Title": "Exclusive Content",
+        "feature3Description": "Access original series and microdramas you won't find anywhere else",
+        "instructionsTitle": "How to Download",
+        "iosInstructions": "Download for iPhone",
+        "androidInstructions": "Download for Android",
+        "mobileInstructions": "Download for Mobile",
+        "mobileDescription": "Tap the download button to go directly to your device's app store",
+        "desktopInstructions": "Download for Mobile",
+        "desktopDescription": "Scan the QR code with your phone to download the app",
+        "showQRCodes": "Show QR Codes",
+        "finalCtaTitle": "Start Your Journey",
+        "finalCtaDescription": "Join thousands of viewers who are already enjoying Idilio TV's exclusive content",
+        "getStartedNow": "Get Started Now"
+    },
+    "Header": {
+        "home": "Home",
+        "shows": "Shows",
+        "downloadApp": "Download App",
+        "subscribe": "Subscribe"
     }
 }

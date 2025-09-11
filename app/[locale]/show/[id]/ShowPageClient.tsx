@@ -17,8 +17,8 @@ export default function ShowPageClient({ show }: ShowPageClientProps) {
     const [showDownloadModal, setShowDownloadModal] = useState(false);
 
     // App store URLs
-    const iosAppStoreUrl = "https://apps.apple.com/us/app/idilio-tv/id6749875422";
-    const androidPlayStoreUrl = "https://play.google.com/store/apps/details?id=com.stvrae.idilio&pcampaignid=web_share";
+    const iosAppStoreUrl = "https://apps.apple.com/app/idilio-tv/id6749875422";
+    const androidPlayStoreUrl = "https://play.google.com/store/apps/details?id=com.stvrae.idilio";
 
     const handleDownloadClick = () => {
         if (isMobile) {
