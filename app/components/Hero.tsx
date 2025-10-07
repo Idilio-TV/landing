@@ -86,7 +86,6 @@ export default function Hero() {
                         /> */}
                     </div>
                     <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
-                    className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
                 </div>
             </section>
 
