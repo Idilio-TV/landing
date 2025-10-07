@@ -94,4 +94,39 @@ export async function getShowIdsForStaticGeneration(): Promise<string[]> {
   }
 
   return data?.map(show => show.id) || []
+}
+
+export async function getAllShowsWithPosters(): Promise<(Show & { poster?: Content })[]> {
+  const { data: shows, error: showsError } = await supabase
+    .from('shows')
+    .select('id, title, summary, created_at, modified_at')
+    .is('deleted_at', null)
+    .order('created_at', { ascending: false })
+
+  if (showsError) {
+    console.error('Error fetching shows:', showsError)
+    throw showsError
+  }
+
+  if (!shows || shows.length === 0) {
+    return []
+  }
+
+  // Get posters for all shows
+  const { data: posters, error: postersError } = await supabase
+    .from('content')
+    .select('*')
+    .eq('content_type', 'poster')
+    .is('deleted_at', null)
+    .in('show_id', shows.map(show => show.id))
+
+  if (postersError) {
+    console.error('Error fetching posters:', postersError)
+  }
+
+  // Combine shows with their posters
+  return shows.map(show => ({
+    ...show,
+    poster: posters?.find(poster => poster.show_id === show.id)
+  }))
 } 
