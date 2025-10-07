@@ -5,6 +5,7 @@ import { useState } from "react";
 import ValidatedForm from "./ValidatedForm";
 import { useTranslations } from 'next-intl';
 import MuxPlayer from "@mux/mux-player-react";
+import Image from "next/image";
 
 export default function Hero() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Hero() {
                 <div className="justify-items-start md:max-w-1/2">
                     <div className="flex w-1/1 justify-center flex-row md:flex-row items-center gap-4">
                         <div className="flex w-1/2 md:w-1/1 overflow-hidden">
-                            <img className="object-contain max-h-[7em]" src="/branding/IDENTIFICADOR_Logotipo a color letra blanca sin fondo.png" alt="idilio.tv" />
+                            <Image className="object-contain max-h-[7em]" src="/branding/IDENTIFICADOR_Logotipo a color letra blanca sin fondo.png" alt="idilio.tv" width={100} height={100} />
                         </div>
 
                         <div className="md:hidden w-1/2 flex relative aspect-[290/623] overflow-hidden shadow-lg">
@@ -30,7 +31,7 @@ export default function Hero() {
                                     className="absolute max-w-[none] left-[-34vw] h-full object-cover"
                                 />
                             </div>
-                            <img className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
+                            <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
                         </div>
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold mt-8">
@@ -84,7 +85,8 @@ export default function Hero() {
                             className="absolute max-w-[none] left-[-23vw] h-full object-cover"
                         /> */}
                     </div>
-                    <img className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
+                    <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
+                    className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
                 </div>
             </section>
 

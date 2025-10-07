@@ -1,4 +1,4 @@
-import { supabase, ShowWithEpisodes, Show } from './supabase'
+import { supabase, ShowWithEpisodes, Show, Content } from './supabase'
 
 export async function getAllShows(): Promise<Show[]> {
   const { data, error } = await supabase
