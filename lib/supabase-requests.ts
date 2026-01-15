@@ -129,4 +129,72 @@ export async function getAllShowsWithPosters(): Promise<(Show & { poster?: Conte
     ...show,
     poster: posters?.find(poster => poster.show_id === show.id)
   }))
+}
+
+export interface EpisodeWithShow {
+  id: string
+  title?: string
+  number: number
+  season_id: string
+  description?: string
+  created_at: string
+  modified_at: string
+  season?: {
+    id: string
+    number: number
+    show_id: string
+    created_at: string
+    modified_at: string
+  }
+  show?: Show
+}
+
+export async function getEpisodeById(id: string): Promise<EpisodeWithShow | null> {
+  // Get episode details
+  const { data: episode, error: episodeError } = await supabase
+    .from('episodes')
+    .select('id, title, number, season_id, description, created_at, modified_at')
+    .eq('id', id)
+    .is('deleted_at', null)
+    .single()
+
+  if (episodeError || !episode) {
+    console.error('Error fetching episode:', episodeError)
+    return null
+  }
+
+  // Get season details
+  const { data: season, error: seasonError } = await supabase
+    .from('seasons')
+    .select('id, number, show_id, created_at, modified_at')
+    .eq('id', episode.season_id)
+    .is('deleted_at', null)
+    .single()
+
+  if (seasonError) {
+    console.error('Error fetching season:', seasonError)
+  }
+
+  // Get show details if we have a season
+  let show: Show | undefined
+  if (season) {
+    const { data: showData, error: showError } = await supabase
+      .from('shows')
+      .select('id, title, summary, created_at, modified_at')
+      .eq('id', season.show_id)
+      .is('deleted_at', null)
+      .single()
+
+    if (showError) {
+      console.error('Error fetching show:', showError)
+    } else {
+      show = showData
+    }
+  }
+
+  return {
+    ...episode,
+    season: season || undefined,
+    show: show || undefined,
+  }
 } 
