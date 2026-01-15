@@ -31,7 +31,7 @@ export default function Hero() {
                                     className="absolute max-w-[none] left-[-34vw] h-full object-cover"
                                 />
                             </div>
-                            <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
+                            <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" width={290} height={623} />
                         </div>
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold mt-8">
@@ -85,7 +85,7 @@ export default function Hero() {
                             className="absolute max-w-[none] left-[-23vw] h-full object-cover"
                         /> */}
                     </div>
-                    <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" />
+                    <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" width={290} height={623} />
                 </div>
             </section>
 

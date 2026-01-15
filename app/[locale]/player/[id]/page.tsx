@@ -4,6 +4,8 @@ import { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import PlayerPageClient from '@/app/[locale]/player/[id]/PlayerPageClient'
 
+export const dynamic = 'force-dynamic'
+
 interface PlayerPageProps {
     params: Promise<{ locale: string; id: string }>;
 }

@@ -6,7 +6,7 @@ const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const pendingDeepLink = cookieStore.get('pending_deep_link');
 
   if (!pendingDeepLink) {
