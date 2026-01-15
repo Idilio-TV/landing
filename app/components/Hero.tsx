@@ -13,25 +13,11 @@ export default function Hero() {
 
     return (
         <>
-            <section className=" flex bg-black gap-4 justify-center min-h-screen text-white items-center px-4 py-12">
+            <section className="flex bg-black gap-4 justify-center min-h-screen text-white items-center px-4 py-12">
                 <div className="justify-items-start md:max-w-1/2">
                     <div className="flex w-1/1 justify-center flex-row md:flex-row items-center gap-4">
                         <div className="flex w-1/2 md:w-1/1 overflow-hidden">
                             <Image className="object-contain max-h-[7em]" src="/branding/IDENTIFICADOR_Logotipo a color letra blanca sin fondo.png" alt="idilio.tv" width={100} height={100} />
-                        </div>
-
-                        <div className="md:hidden w-1/2 flex relative aspect-[290/623] overflow-hidden shadow-lg">
-                            <div className="absolute inset-2 md:rounded-4xl rounded-xl  overflow-hidden">
-                                <video
-                                    src="/romantic1.mp4"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
-                                    className="absolute max-w-[none] left-[-34vw] h-full object-cover"
-                                />
-                            </div>
-                            <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" width={290} height={623} />
                         </div>
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold mt-8">
@@ -48,8 +34,9 @@ export default function Hero() {
                     </button>
                 </div>
 
-                <div className="hidden md:flex w-1/2 md:w-1/3 lg:w-2/7 max-w-1/2 relative aspect-[290/623] overflow-hidden shadow-lg">
-                    <div className="absolute inset-2 rounded-4xl overflow-hidden">
+                <div className="w-1/2 md:w-1/3 lg:w-2/7 max-w-1/2 relative aspect-[290/623] overflow-hidden shadow-lg">
+                    <Image className="absolute inset-0 max-w-[none] w-full h-full object-cover z-0" src="/phonebg.png" alt="samsung phone" width={290} height={623} />
+                    <div className="absolute inset-2 rounded-4xl overflow-hidden z-10">
                         <MuxPlayer
                             playbackId="P01iBu9C00FO1l6yOaYYU3cww1yWldnjjJP3n02fDR800vo"
                             autoPlay
@@ -59,7 +46,6 @@ export default function Hero() {
                             className="absolute max-w-[none] left-[-23vw] h-full object-cover"
                             style={{
                                 width: '100%',
-                                // height: '100%',
                                 left: 0,
                                 "--media-object-fit": "cover",
                                 "--media-object-position": "center",
@@ -76,16 +62,7 @@ export default function Hero() {
                                 viewer_user_id: "user-id-007",
                             }}
                         />
-                        {/* <video
-                            src="/romantic1.mp4"
-                            autoPlay
-                            muted
-                            loop
-                            playsInline
-                            className="absolute max-w-[none] left-[-23vw] h-full object-cover"
-                        /> */}
                     </div>
-                    <Image className="absolute max-w-[none] h-full object-cover" src="/phonebg.png" alt="samsung phone" width={290} height={623} />
                 </div>
             </section>
 

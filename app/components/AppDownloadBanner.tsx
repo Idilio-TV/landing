@@ -11,10 +11,12 @@ interface Props {
 export function AppDownloadBanner({ targetId, type }: Props) {
   const [isMobile, setIsMobile] = useState(false);
   const [platform, setPlatform] = useState<'ios' | 'android' | null>(null);
+  const [mounted, setMounted] = useState(false);
   const params = useParams();
   const locale = (params?.locale as string) || 'es';
 
   useEffect(() => {
+    setMounted(true);
     const ua = navigator.userAgent;
     const isMobileDevice = /iPhone|iPad|iPod|Android/i.test(ua);
     setIsMobile(isMobileDevice);
@@ -38,7 +40,8 @@ export function AppDownloadBanner({ targetId, type }: Props) {
     }
   }, [targetId, type, locale]);
 
-  if (!isMobile) return null;
+  // Prevent hydration mismatch by not rendering until mounted
+  if (!mounted || !isMobile) return null;
 
   const appStoreUrl = 'https://apps.apple.com/app/idilio-tv/id6749875422';
   const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.stvrae.idilio';
