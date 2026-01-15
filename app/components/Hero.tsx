@@ -13,28 +13,30 @@ export default function Hero() {
 
     return (
         <>
-            <section className="flex bg-black gap-4 justify-center min-h-screen text-white items-center px-4 py-12">
-                <div className="justify-items-start md:max-w-1/2">
-                    <div className="flex w-1/1 justify-center flex-row md:flex-row items-center gap-4">
-                        <div className="flex w-1/2 md:w-1/1 overflow-hidden">
+            <section className="flex flex-col md:flex-row bg-black gap-4 justify-center min-h-screen text-white items-center px-4 py-12">
+                <div className="w-full md:max-w-1/2">
+                    <div className="flex w-full justify-center md:justify-start flex-row items-center gap-4">
+                        <div className="flex w-full md:w-auto overflow-hidden">
                             <Image className="object-contain max-h-[7em]" src="/branding/IDENTIFICADOR_Logotipo a color letra blanca sin fondo.png" alt="idilio.tv" width={100} height={100} />
                         </div>
                     </div>
-                    <h1 className="text-4xl md:text-5xl font-bold mt-8">
+                    <h1 className="text-4xl md:text-5xl font-bold mt-8 text-center md:text-left">
                         {t('title')}
                     </h1>
 
-                    <h2 className="text-2xl md:text-2xl mt-8">
+                    <h2 className="text-2xl md:text-2xl mt-8 text-center md:text-left">
                         {t('subtitle')}{" "}
                         <span className="text-main-green-100">idilio.tv</span>
                     </h2>
 
-                    <button onClick={() => setIsModalOpen(true)} className="mt-6 cursor-pointer bg-main-green-100 hover:bg-main-green-200 text-white px-6 py-3 rounded-md text-lg font-medium transition">
-                        {t('button')}
-                    </button>
+                    <div className="flex justify-center md:justify-start">
+                        <button onClick={() => setIsModalOpen(true)} className="mt-6 cursor-pointer bg-main-green-100 hover:bg-main-green-200 text-white px-6 py-3 rounded-md text-lg font-medium transition">
+                            {t('button')}
+                        </button>
+                    </div>
                 </div>
 
-                <div className="w-1/2 md:w-1/3 lg:w-2/7 max-w-1/2 relative aspect-[290/623] overflow-hidden shadow-lg">
+                <div className="w-1/2 md:w-1/3 lg:w-2/7 max-w-[200px] md:max-w-1/2 relative aspect-[290/623] overflow-hidden shadow-lg">
                     <Image className="absolute inset-0 max-w-[none] w-full h-full object-cover z-0" src="/phonebg.png" alt="samsung phone" width={290} height={623} />
                     <div className="absolute inset-2 rounded-4xl overflow-hidden z-10">
                         <MuxPlayer
