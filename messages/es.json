@@ -99,6 +99,21 @@
         "showTitle": "Serie - Idilio.TV",
         "showDescription": "Mira tus series favoritas en Idilio.TV"
     },
+    "Player": {
+        "watchInApp": "Ver en la App",
+        "availableOn": "Disponible en iOS y Android",
+        "season": "Temporada",
+        "episode": "Episodio",
+        "readyToWatch": "¿Listo para empezar a ver?",
+        "downloadAppDescription": "Descarga la app de idilio TV y comienza a transmitir tus series favoritas hoy.",
+        "getTheApp": "Obtener la App",
+        "episodeNotFound": "Episodio No Encontrado",
+        "episodeNotFoundDescription": "El episodio solicitado no pudo ser encontrado.",
+        "episodeTitle": "Episodio - Idilio.TV",
+        "episodeDescription": "Mira tus episodios favoritos en Idilio.TV",
+        "watchEpisode": "Ver",
+        "onIdilioTV": "en Idilio.TV"
+    },
     "Footer": {
         "phrase": "Hecho con pasión en Latinoamérica",
         "joinUs": "Únete al equipo",

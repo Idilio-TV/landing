@@ -5,6 +5,7 @@ import { ArrowRight, Play, Download } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useDeviceDetection } from '@/app/hooks/useDeviceDetection';
 import DownloadAppModal from '@/app/components/DownloadAppModal';
+import { AppDownloadBanner } from '@/app/components/AppDownloadBanner';
 import { ShowWithEpisodes } from '@/lib/supabase';
 
 interface ShowPageClientProps {
@@ -171,6 +172,8 @@ export default function ShowPageClient({ show }: ShowPageClientProps) {
                 iosAppStoreUrl={iosAppStoreUrl}
                 androidPlayStoreUrl={androidPlayStoreUrl}
             />
+
+            <AppDownloadBanner targetId={show.id} type="show" />
         </>
     );
 }

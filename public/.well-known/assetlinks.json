@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.stvrae.idilio",
+      "sha256_cert_fingerprints": [
+        "6E:5A:1B:01:32:E1:82:26:01:37:B2:68:32:77:1E:BF:55:56:12:44:9B:18:76:AF:82:98:1B:E8:C6:CD:91:53"
+      ]
+    }
+  }
+]
