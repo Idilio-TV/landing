@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
+import { useParams } from 'next/navigation';
 
 interface Props {
   targetId: string;
@@ -10,6 +11,8 @@ interface Props {
 export function AppDownloadBanner({ targetId, type }: Props) {
   const [isMobile, setIsMobile] = useState(false);
   const [platform, setPlatform] = useState<'ios' | 'android' | null>(null);
+  const params = useParams();
+  const locale = (params?.locale as string) || 'es';
 
   useEffect(() => {
     const ua = navigator.userAgent;
@@ -18,22 +21,22 @@ export function AppDownloadBanner({ targetId, type }: Props) {
     setPlatform(/iPhone|iPad|iPod/i.test(ua) ? 'ios' : /Android/i.test(ua) ? 'android' : null);
 
     if (isMobileDevice) {
-      const params = new URLSearchParams(window.location.search);
+      const urlParams = new URLSearchParams(window.location.search);
       const data = {
-        path: `/${type}/${targetId}`,
+        path: `/${locale}/${type}/${targetId}`,
         targetId,
         type,
-        utm_source: params.get('utm_source'),
-        utm_medium: params.get('utm_medium'),
-        utm_campaign: params.get('utm_campaign'),
-        utm_content: params.get('utm_content'),
+        locale,
+        utm_source: urlParams.get('utm_source'),
+        utm_medium: urlParams.get('utm_medium'),
+        utm_campaign: urlParams.get('utm_campaign'),
+        utm_content: urlParams.get('utm_content'),
         timestamp: new Date().toISOString(),
       };
       const serialized = JSON.stringify(data);
-      localStorage.setItem('pending_deep_link', serialized);
       document.cookie = `pending_deep_link=${encodeURIComponent(serialized)}; max-age=604800; path=/`;
     }
-  }, [targetId, type]);
+  }, [targetId, type, locale]);
 
   if (!isMobile) return null;
 
