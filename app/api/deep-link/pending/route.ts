@@ -100,18 +100,18 @@ export async function POST(request: NextRequest) {
 
     const supabase = getSupabaseClient();
 
+    // Extraer campos conocidos y pasar el resto como está
+    const { path, targetId, type, ...otherParams } = body;
+
     // Call RPC to set pending deep link
+    // Pasar TODOS los parámetros dinámicamente (UTMs y cualquier otro)
     const { error } = await supabase.rpc('set_pending_deep_link', {
       p_ip_address: ip,
       p_deep_link_data: {
-        path: body.path,
-        targetId: body.targetId,
-        type: body.type,
-        utm_source: body.utm_source,
-        utm_medium: body.utm_medium,
-        utm_campaign: body.utm_campaign,
-        utm_content: body.utm_content,
-        utm_term: body.utm_term,
+        path,
+        targetId,
+        type,
+        ...otherParams,  // Incluye utm_source, utm_campaign, fbclid, gclid, etc.
       },
       p_expires_in_seconds: SEVEN_DAYS_SECONDS,
     });

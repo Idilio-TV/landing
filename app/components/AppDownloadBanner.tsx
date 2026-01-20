@@ -24,17 +24,21 @@ export function AppDownloadBanner({ targetId, type }: Props) {
 
     if (isMobileDevice) {
       const urlParams = new URLSearchParams(window.location.search);
+      
+      // Capturar TODOS los query params dinámicamente
+      const allParams: Record<string, string> = {};
+      urlParams.forEach((value, key) => {
+        allParams[key] = value;
+      });
+
       const deepLinkData = {
         path: `/${locale}/${type}/${targetId}`,
         targetId,
         type,
         locale,
-        utmSource: urlParams.get('utm_source'),
-        utmMedium: urlParams.get('utm_medium'),
-        utmCampaign: urlParams.get('utm_campaign'),
-        utmContent: urlParams.get('utm_content'),
-        utmTerm: urlParams.get('utm_term'),
         rawUrl: window.location.href,
+        // Incluir todos los query params (UTMs y cualquier otro)
+        ...allParams,
       };
 
       // Save deep link to Supabase via API
