@@ -24,19 +24,27 @@ export function AppDownloadBanner({ targetId, type }: Props) {
 
     if (isMobileDevice) {
       const urlParams = new URLSearchParams(window.location.search);
-      const data = {
+      const deepLinkData = {
         path: `/${locale}/${type}/${targetId}`,
         targetId,
         type,
         locale,
-        utm_source: urlParams.get('utm_source'),
-        utm_medium: urlParams.get('utm_medium'),
-        utm_campaign: urlParams.get('utm_campaign'),
-        utm_content: urlParams.get('utm_content'),
-        timestamp: new Date().toISOString(),
+        utmSource: urlParams.get('utm_source'),
+        utmMedium: urlParams.get('utm_medium'),
+        utmCampaign: urlParams.get('utm_campaign'),
+        utmContent: urlParams.get('utm_content'),
+        utmTerm: urlParams.get('utm_term'),
+        rawUrl: window.location.href,
       };
-      const serialized = JSON.stringify(data);
-      document.cookie = `pending_deep_link=${encodeURIComponent(serialized)}; max-age=604800; path=/`;
+
+      // Save deep link to Supabase via API
+      fetch('/api/deep-link/pending', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(deepLinkData),
+      }).catch((error) => {
+        console.error('[AppDownloadBanner] Error saving deep link:', error);
+      });
     }
   }, [targetId, type, locale]);
 
