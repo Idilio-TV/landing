@@ -41,13 +41,50 @@ export function AppDownloadBanner({ targetId, type }: Props) {
         ...allParams,
       };
 
-      // Save deep link to Supabase via API
+      // Determinar URLs
+      const isIOS = /iPhone|iPad|iPod/i.test(ua);
+      const storeUrl = isIOS 
+        ? 'https://apps.apple.com/app/idilio-tv/id6749875422'
+        : 'https://play.google.com/store/apps/details?id=com.stvrae.idilio';
+      const deepLink = `idiliotv://${type}/${targetId}`;
+
+      // Función para intentar abrir la app y fallback a la tienda
+      const tryOpenAppOrStore = () => {
+        console.log('[AppDownloadBanner] Trying to open app with deep link:', deepLink);
+        
+        // Guardar el tiempo actual para detectar si la app se abrió
+        const startTime = Date.now();
+        
+        // Intentar abrir la app con el custom URL scheme
+        window.location.href = deepLink;
+        
+        // Si después de 800ms seguimos aquí, la app no está instalada
+        // Redirigir a la tienda
+        setTimeout(() => {
+          // Si pasó muy poco tiempo, significa que seguimos en la página
+          // (la app no se abrió)
+          const elapsed = Date.now() - startTime;
+          if (elapsed < 1500) {
+            console.log('[AppDownloadBanner] App not installed, redirecting to store...');
+            window.location.href = storeUrl;
+          }
+        }, 800);
+      };
+
+      // Save deep link to Supabase via API, then try to open app
       fetch('/api/deep-link/pending', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(deepLinkData),
-      }).catch((error) => {
+      })
+      .then(() => {
+        console.log('[AppDownloadBanner] Deep link saved successfully');
+        tryOpenAppOrStore();
+      })
+      .catch((error) => {
         console.error('[AppDownloadBanner] Error saving deep link:', error);
+        // Aún así intentar abrir la app o ir a la tienda
+        tryOpenAppOrStore();
       });
     }
   }, [targetId, type, locale]);
@@ -65,7 +102,7 @@ export function AppDownloadBanner({ targetId, type }: Props) {
     window.location.href = deepLink;
     setTimeout(() => {
       window.location.href = storeUrl;
-    }, 1500);
+    }, 800);
   };
 
   return (
