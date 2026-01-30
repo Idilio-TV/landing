@@ -43,17 +43,15 @@ export function AppDownloadBanner({ targetId, type }: Props) {
 
       // Determinar URLs
       const isIOS = /iPhone|iPad|iPod/i.test(ua);
+      // Para Android usamos market:// que abre directamente la app de Play Store
       const storeUrl = isIOS 
         ? 'https://apps.apple.com/app/idilio-tv/id6749875422'
-        : 'https://play.google.com/store/apps/details?id=com.stvrae.idilio';
+        : 'market://details?id=com.stvrae.idilio';
       const deepLink = `idiliotv://${type}/${targetId}`;
 
       // Función para intentar abrir la app y fallback a la tienda
       const tryOpenAppOrStore = () => {
         console.log('[AppDownloadBanner] Trying to open app with deep link:', deepLink);
-        
-        // Guardar el tiempo actual para detectar si la app se abrió
-        const startTime = Date.now();
         
         // Intentar abrir la app con el custom URL scheme
         window.location.href = deepLink;
@@ -61,13 +59,8 @@ export function AppDownloadBanner({ targetId, type }: Props) {
         // Si después de 800ms seguimos aquí, la app no está instalada
         // Redirigir a la tienda
         setTimeout(() => {
-          // Si pasó muy poco tiempo, significa que seguimos en la página
-          // (la app no se abrió)
-          const elapsed = Date.now() - startTime;
-          if (elapsed < 1500) {
-            console.log('[AppDownloadBanner] App not installed, redirecting to store...');
-            window.location.href = storeUrl;
-          }
+          console.log('[AppDownloadBanner] Redirecting to store...');
+          window.location.href = storeUrl;
         }, 800);
       };
 
@@ -93,13 +86,15 @@ export function AppDownloadBanner({ targetId, type }: Props) {
   if (!mounted || !isMobile) return null;
 
   const appStoreUrl = 'https://apps.apple.com/app/idilio-tv/id6749875422';
-  const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.stvrae.idilio';
+  // market:// abre directamente la app de Play Store en Android
+  const playStoreUrl = 'market://details?id=com.stvrae.idilio';
 
   const handleOpenApp = () => {
     const deepLink = `idiliotv://${type}/${targetId}`;
     const storeUrl = platform === 'ios' ? appStoreUrl : playStoreUrl;
 
     window.location.href = deepLink;
+    
     setTimeout(() => {
       window.location.href = storeUrl;
     }, 800);
