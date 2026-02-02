@@ -1,11 +1,26 @@
 import { NextResponse } from "next/server";
+import { getSupabaseClient } from "@/lib/supabase";
 
 export const runtime = "edge";
+
+const SEVEN_DAYS_SECONDS = 7 * 24 * 60 * 60;
 
 const iosAppStoreUrl = "https://apps.apple.com/app/id6749875422";
 const androidPlayStoreUrl =
   "https://play.google.com/store/apps/details?id=com.stvrae.idilio";
 const fallbackUrl = "https://idilio.tv";
+
+function getIP(request: Request): string | null {
+  const vercelIP = request.headers.get("x-vercel-forwarded-for");
+  if (vercelIP) return vercelIP;
+  const forwardedFor = request.headers.get("x-forwarded-for");
+  if (forwardedFor) return forwardedFor.split(",")[0].trim();
+  const realIP = request.headers.get("x-real-ip");
+  if (realIP) return realIP;
+  const remoteAddr = request.headers.get("remote-addr");
+  if (remoteAddr) return remoteAddr;
+  return null;
+}
 
 function detectDevice(ua: string) {
   const s = ua.toLowerCase();
@@ -21,7 +36,7 @@ export async function GET(
   const { locale } = await ctx.params;
   const url = new URL(req.url);
 
-  const type = url.searchParams.get("type") || "show";
+  const type = url.searchParams.get("type") || "none";
   const targetId = url.searchParams.get("targetId") || "";
 
   const ua = req.headers.get("user-agent") || "";
@@ -35,11 +50,12 @@ export async function GET(
   const device =
     forced === "ios" || forced === "android" ? forced : detectDevice(ua);
 
-  const payload = {
-    path: `/${locale}/${type}/${targetId}`,
-    locale,
+  const path = `/${locale}/${type}/${targetId}`;
+  const deepLinkData = {
+    path,
     type,
-    target_id: targetId,
+    targetId,
+    locale,
     raw_url: url.toString(),
     device,
     user_agent: ua,
@@ -54,24 +70,21 @@ export async function GET(
         ? androidPlayStoreUrl
         : fallbackUrl;
 
-  // Await log so it runs before redirect (Edge tears down after response otherwise)
-  const supabaseUrl = process.env.SUPABASE_URL;
-  if (supabaseUrl) {
-    const logPromise = fetch(
-      `${supabaseUrl}/rest/v1/deep_link_pending`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          apikey: process.env.SUPABASE_SERVICE_ROLE_KEY!,
-          Authorization: `Bearer ${process.env.SUPABASE_SERVICE_ROLE_KEY!}`,
-          Prefer: "return=minimal",
-        },
-        body: JSON.stringify(payload),
+  const ip = getIP(req);
+  if (ip) {
+    try {
+      const supabase = getSupabaseClient();
+      const { error } = await supabase.rpc("set_pending_deep_link", {
+        p_ip_address: ip,
+        p_deep_link_data: deepLinkData,
+        p_expires_in_seconds: SEVEN_DAYS_SECONDS,
+      });
+      if (error) {
+        console.error("[go-to-app] set_pending_deep_link error:", error);
       }
-    ).catch(() => null);
-    const timeout = new Promise((resolve) => setTimeout(resolve, 3000));
-    await Promise.race([logPromise, timeout]);
+    } catch (e) {
+      console.error("[go-to-app] Supabase error:", e);
+    }
   }
 
   return NextResponse.redirect(destination, { status: 302 });
