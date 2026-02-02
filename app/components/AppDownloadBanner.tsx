@@ -45,7 +45,7 @@ export function AppDownloadBanner({ targetId, type }: Props) {
       const isIOS = /iPhone|iPad|iPod/i.test(ua);
       // Para Android usamos market:// que abre directamente la app de Play Store
       const storeUrl = isIOS 
-        ? 'https://apps.apple.com/app/idilio-tv/id6749875422'
+        ? 'https://apps.apple.com/app/id6749875422'
         : 'market://details?id=com.stvrae.idilio';
       const deepLink = `idiliotv://${type}/${targetId}`;
 
@@ -85,7 +85,7 @@ export function AppDownloadBanner({ targetId, type }: Props) {
   // Prevent hydration mismatch by not rendering until mounted
   if (!mounted || !isMobile) return null;
 
-  const appStoreUrl = 'https://apps.apple.com/app/idilio-tv/id6749875422';
+  const appStoreUrl = 'https://apps.apple.com/app/id6749875422';
   // market:// abre directamente la app de Play Store en Android
   const playStoreUrl = 'market://details?id=com.stvrae.idilio';
 
