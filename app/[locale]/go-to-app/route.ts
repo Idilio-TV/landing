@@ -41,6 +41,11 @@ export async function GET(
 
   const ua = req.headers.get("user-agent") || "";
 
+  const utm_source = url.searchParams.get("utm_source") || "";
+  const utm_medium = url.searchParams.get("utm_medium") || "";
+  const utm_campaign = url.searchParams.get("utm_campaign") || "";
+  const utm_content = url.searchParams.get("utm_content") || "";
+
   const allParams: Record<string, string> = {};
   url.searchParams.forEach((value, key) => {
     allParams[key] = value;
@@ -56,6 +61,10 @@ export async function GET(
     type,
     targetId,
     locale,
+    utm_source, 
+    utm_medium, 
+    utm_campaign, 
+    utm_content,
     raw_url: url.toString(),
     device,
     user_agent: ua,
